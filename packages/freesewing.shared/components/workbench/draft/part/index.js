@@ -3,7 +3,7 @@ import Point from '../point'
 import Snippet from '../snippet'
 import { getProps } from '../utils'
 
-const XrayPart = props => {
+const RevealPart = props => {
   // Don't bother if this is the only part on display
   if (props.gist.only && props.gist.only.length === 1) return null
   const i = Object.keys(props.gist.xray?.reveal).indexOf(props.partName)%10
@@ -38,7 +38,19 @@ const Part = props => {
   return (
     <g {...getProps(part)} id={`part-${partName}`}>
       {grid}
-      {props.gist?.xray?.reveal?.[partName] && <XrayPart {...props} />}
+      {
+        props.gist?.xray?.reveal?.[partName] &&
+        (
+          (
+            props.gist?.xray?.reveal?.[partName].points &&
+            Object.keys(props.gist?.xray?.reveal?.[partName].points).length > 0
+          ) ||
+          (
+            props.gist?.xray?.reveal?.[partName].paths &&
+            Object.keys(props.gist?.xray?.reveal?.[partName].paths).length > 0
+          )
+        ) && <RevealPart {...props} />
+      }
       {Object.keys(part.paths).map((pathName) => (
         <Path
           key={pathName}

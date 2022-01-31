@@ -11,6 +11,18 @@ const types = {
   points: Point
 }
 
+const RevealDot = ({ gist, partName, type='part', name, noOpacity=false }) => {
+  const color = (type === 'part')
+    ? Object.keys(gist.xray.parts).indexOf(partName)%10
+    : Object.keys(gist.xray.parts[partName][type]).indexOf(name)%10
+  return (
+    <div className="w-4 h-4 bg-base-100 rounded-full inline-block mx-2">
+      <div className={`bg-color-${color} w-full h-full rounded-full ${noOpacity ? '' : 'opacity-50'}`}>
+      </div>
+    </div>
+  )
+}
+
 const XrayList = props => {
 
   let title = props.app.t(`parts.${props.partName}`)
@@ -25,12 +37,32 @@ const XrayList = props => {
     props.gist.only[0] === props.partName
   )
 
+  // Is this part being revealed?
+  const partReveal = (
+    (
+      props.gist.xray?.reveal?.[props.partName]?.points &&
+      Object.keys(props.gist.xray?.reveal?.[props.partName]?.points).length > 0
+    ) ||
+    (
+      props.gist.xray?.reveal?.[props.partName]?.paths &&
+      Object.keys(props.gist.xray?.reveal?.[props.partName]?.paths).length > 0
+    )
+  ) ? true : false
+
+
   return (
     <Li>
       <Details>
         <Summary>
           <SumDiv>
-            <Deg />
+            {partReveal
+              ? <RevealDot
+                  gist={props.gist}
+                  partName={props.partName}
+                  noOpacity
+                />
+              : <Deg />
+            }
             <span>{title}</span>
             <span className="ml-2 opacity-60">[{props.partName}]</span>
           </SumDiv>
@@ -46,7 +78,10 @@ const XrayList = props => {
           </button>
           <button
             className="text-accent px-3 hover:text-secondary-focus"
-            onClick={() => props.unsetGist(['xray', 'parts', props.partName])}
+            onClick={() => {
+              props.unsetGist(['xray', 'parts', props.partName])
+              props.unsetGist(['xray', 'reveal', props.partName])
+            }}
           >
             <ClearIcon />
           </button>
@@ -62,7 +97,10 @@ const XrayList = props => {
                   </SumDiv>
                   <button
                     className="text-accent px-3 hover:text-secondary-focus"
-                    onClick={() => props.unsetGist(['xray', 'parts', props.partName, type])}
+                    onClick={() => {
+                      props.unsetGist(['xray', 'parts', props.partName, type])
+                      props.unsetGist(['xray', 'reveal', props.partName, type])
+                    }}
                   >
                     <ClearIcon />
                   </button>
@@ -75,7 +113,13 @@ const XrayList = props => {
                         <Details>
                           <Summary>
                             <SumDiv>
-                              <Deg />
+                              <RevealDot
+                                gist={props.gist}
+                                partName={props.partName}
+                                type={type}
+                                name={id}
+                                noOpacity
+                              />
                               <span>{id}</span>
                             </SumDiv>
                             <button

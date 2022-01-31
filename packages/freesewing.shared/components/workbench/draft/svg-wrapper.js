@@ -35,7 +35,7 @@ const SvgWrapper = props => {
     >
       <TransformComponent>
         <div style={{ width: size.width+'px', }}>
-          <Svg {...patternProps} embed={gist.embed}>
+          <Svg {...patternProps} embed={gist.embed} xray={gist?.xray?.enabled}>
             <Defs {...patternProps} />
             <style>{`:root { --pattern-scale: ${gist.scale || 1}}`}</style>
             <g>

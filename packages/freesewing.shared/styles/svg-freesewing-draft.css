@@ -32,6 +32,7 @@ svg.freesewing.pattern {
   .dotted { stroke-dasharray: 0.5, 1; }
   .dashed { stroke-dasharray: 2, 2; }
   .lashed { stroke-dasharray: 8, 3; }
+  .gashed { stroke-dasharray: 8, 12; stroke-linecap: round;}
 
   /* Hidden */
   .hidden { stroke: none !important; fill: none !important; }

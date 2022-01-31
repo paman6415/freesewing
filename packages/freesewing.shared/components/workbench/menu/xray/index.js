@@ -2,6 +2,7 @@ import XrayIcon from 'shared/components/icons/xray.js'
 import { linkClasses, Chevron } from 'shared/components/navigation/primary.js'
 import Reset from './reset.js'
 import Disable from './disable.js'
+import ConsoleLog from './console-log.js'
 import List from './list.js'
 import { Ul, Details, TopSummary } from 'shared/components/workbench/menu'
 
@@ -37,6 +38,7 @@ const Xray = props => {
         <Ul>
           <Disable {...props} />
           <Reset {...props} />
+          <ConsoleLog draft={props.draft} />
           {
             props.gist?.xray?.parts &&
             Object.keys(props.gist.xray.parts).map(partName => <List {...props} partName={partName} />)

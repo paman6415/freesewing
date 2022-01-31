@@ -9,14 +9,19 @@ const Svg = ({
   viewBox = false,
   width,
   height,
-  children
+  children,
+  xray=false
 }) => {
   let attributes = {
     xmlns: 'http://www.w3.org/2000/svg',
     'xmlns:svg': 'http://www.w3.org/2000/svg',
     xmlnsXlink: 'http://www.w3.org/1999/xlink',
     xmlLang: locale,
-    viewBox: viewBox || `0 0 ${width} ${height}`,
+    viewBox: viewBox
+      ? viewBox
+      : xray
+      ? `-25 -25 ${width+50} ${height+50}`
+      : `0 0 ${width} ${height}`,
     className,
     style
   }

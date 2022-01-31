@@ -175,6 +175,18 @@
   .fill-opacity-50 { fill-opacity: 0.5; }
 }
 
+/* Background colors for Xray */
+.bg-color-0 { background-color: var(--pattern-color-0); }
+.bg-color-1 { background-color: var(--pattern-color-1); }
+.bg-color-2 { background-color: var(--pattern-color-2); }
+.bg-color-3 { background-color: var(--pattern-color-3); }
+.bg-color-4 { background-color: var(--pattern-color-4); }
+.bg-color-5 { background-color: var(--pattern-color-5); }
+.bg-color-6 { background-color: var(--pattern-color-6); }
+.bg-color-7 { background-color: var(--pattern-color-7); }
+.bg-color-8 { background-color: var(--pattern-color-8); }
+.bg-color-9 { background-color: var(--pattern-color-9); }
+
 /* Override DaisyUI button text color */
 .btn-info {
   color: var(--btn-info-content);

@@ -135,12 +135,12 @@ const Point = props => {
   const { point, pointName, partName, gist } = props
   const output = []
   // Passive indication for points
-  if (gist.xray) output.push(<PassiveXrayPoint {...props} key={'xp-' + pointName} />)
+  if (gist.xray?.enabled) output.push(<PassiveXrayPoint {...props} key={'xp-' + pointName} />)
   // Active indication for points (point that have been clicked on)
-  if (gist.xray?.parts?.[partName]?.points?.[pointName])
+  if (gist?.xray?.enabled && gist.xray?.parts?.[partName]?.points?.[pointName])
     output.push(<ActiveXrayPoint {...props} key={'rp-' + pointName} />)
   // Reveal (based on clicking the seach icon in sidebar
-  if (gist.xray?.reveal?.[partName]?.points?.[pointName])
+  if (gist?.xray?.enabled && gist.xray?.reveal?.[partName]?.points?.[pointName])
     output.push(<RevealPoint {...props} key={'rp-' + pointName} />)
   // Render text
   if (point.attributes && point.attributes.get('data-text'))
