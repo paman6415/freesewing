@@ -8,39 +8,42 @@ about: Shows how to create a variation of a pre-existing design
 
 ##### See this example in our source code
 
- - [packages/aaron/config/index.js](https://github.com/freesewing/freesewing/blob/72f34101792bda4d8e553c3479daa63cb461f3c5/packages/aaron/config/index.js#L34)
- - [packages/aaron/src/index.js](https://github.com/freesewing/freesewing/blob/72f34101792bda4d8e553c3479daa63cb461f3c5/packages/aaron/src/index.js#L2)
- - [packages/carlita/src/index.js](https://github.com/freesewing/freesewing/blob/8474477911daed3c383700ab29c9565883f16d66/packages/carlita/src/index.js#L25)
+- [packages/aaron/config/index.js](https://github.com/freesewing/freesewing/blob/72f34101792bda4d8e553c3479daa63cb461f3c5/packages/aaron/config/index.js#L34)
+- [packages/aaron/src/index.js](https://github.com/freesewing/freesewing/blob/72f34101792bda4d8e553c3479daa63cb461f3c5/packages/aaron/src/index.js#L2)
+- [packages/carlita/src/index.js](https://github.com/freesewing/freesewing/blob/8474477911daed3c383700ab29c9565883f16d66/packages/carlita/src/index.js#L25)
 
 </Note>
 
 ## Setup
 
 To be able to extend existing patterns, you will have to access them on your local machine. There are two ways to do this:
+
 - add needed dependencies when using `npx create-freesewing-pattern`
 - create your new pattern in a clone of the [freesewing monorepo](https://github.com/freesewing/freesewing)
 
 ### When using `npx create-freesewing-pattern`
 
-If you want to use existing patterns when creating your new pattern with `npx create-freesewing-pattern`, you have to install the needed dependencies.  
-Let's say you want to extend Brian.  
-In your freshly created pattern folder, you now have to run 
+If you want to use existing patterns when creating your new pattern with `npx create-freesewing-pattern`, you have to install the needed dependencies.\
+Let's say you want to extend Brian.\
+In your freshly created pattern folder, you now have to run
 
 ```bash
 npm install --save @freesewing/brian
 ```
-This will install Brian as a dependency, which you can then access in your pattern (see [examples](/howtos/code/extend-pattern/#examples) below on how to do that).  
+
+This will install Brian as a dependency, which you can then access in your pattern (see [examples](/howtos/code/extend-pattern/#examples) below on how to do that).\
 This has to be repeated for every new pattern you create.
 
 <Tip>
-  
-  Some packages need more than one dependency. Carlton, for example, is based on Bent, which in turn is based on Brian. You will have to install all dependencies in the way shown above. If something is still missing, error messages will tell you what you still need to install.
-  
+
+Some packages need more than one dependency. Carlton, for example, is based on Bent, which in turn is based on Brian. You will have to install all dependencies in the way shown above. If something is still missing, error messages will tell you what you still need to install.
+
 </Tip>
 
 ### Using the freesewing monorepo
 
-You can use the power of robots to install the needed dependencies if you work in a clone of the [freesewing monorepo](https://github.com/freesewing/freesewing).  
+You can use the power of robots to install the needed dependencies if you work in a clone of the [freesewing monorepo](https://github.com/freesewing/freesewing).
+
 - First, clone the monorepo (or your fork of it) to your local machine.
 - Go to the root and run `yarn kickstart`. This will take a while, so grab a coffee and come back later.
 - Once that is done, edit the file `config/descriptions.yaml` to include the name and description of your new pattern (take care to start the description with `A FreeSewing pattern`).

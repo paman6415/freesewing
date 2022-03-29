@@ -1,5 +1,5 @@
 ---
-title: Cornelius Construction
+title: "Cornelius cycling breeches: Sewing Instructions"
 ---
 
 ### Step 1: The Front Pockets
@@ -13,9 +13,9 @@ title: Cornelius Construction
 - _Baste_ the top and side of the pocket bags to the front seam allowances mathcing notches.
 
 <Note>
-  
+
 Going forward the pockets and fronts will just be referred to as the fronts.
-  
+
 </Note>
 
 ### Step 2: The Fly
@@ -31,12 +31,12 @@ Going forward the pockets and fronts will just be referred to as the fronts.
 - Sew the left zipper tape to left flap close to the zipper teeth using a zipper foot. Don't sew it to the front itself!
 - Fold the zipper guard in half wrong sides together.
 - Lay the zipper guard on the right flap, right sides touching.
-- Sew the zipper guard to the right flap, _Finish_ the right side to your liking.  
+- Sew the zipper guard to the right flap, _Finish_ the right side to your liking.
 - _Finish_ the left side of the left flap to your liking.
 - Unpick the basted part of the front seam.
 - _Topstitch_ the right flap down, away from the now unpicked seam, as far down as you can.
-- Pin/_Baste_ the zipper protector over to the right side to keep it out of the way for the next step  
-- On the outside side, sew the left flap down to the left, following the curved line.  
+- Pin/_Baste_ the zipper protector over to the right side to keep it out of the way for the next step
+- On the outside side, sew the left flap down to the left, following the curved line.
 - On the outside side, _Bar-Tack_ where you like them for reinforcement.
 
 <Tip>
@@ -46,8 +46,8 @@ When sewing the left flap down on the outside, you may find it best to make a te
 </Tip>
 
 <Note>
-  
-If you wish to orientate the fly the other way change the left to right and right to left in the steps above.  
+
+If you wish to orientate the fly the other way change the left to right and right to left in the steps above.\
 If wanting something more historical than omit the zipper and make a buttonhole fly instead.
 
 </Note>
@@ -87,14 +87,14 @@ If you are worried about a draft you can create a triangle piece of fabric that 
 - Sew one of the leg band pieces to each leg right sides together, matching notches.
 - Press the bands and seam allowance down and away from leg. Trim the seam allowance to reduce bulk.
 - Press the top seam allowance to the wrong side of the remaining leg band pieces. Trim the top seam allowance.
-- With right sides together sew the remaining leg and pieces to the attached leg bands along the bottoms and sides. 
+- With right sides together sew the remaining leg and pieces to the attached leg bands along the bottoms and sides.
 - Turn the leg bands out. Press.
 - _Slipstitch_ or _Whipstitch_ the folded edge of the waistband to front, making sure the folded edge is covering the stitcing.
 - Sew the buttonhole. The buttons will be sewn later.
 
 <Note>
 
-If you are worried about a draft you will need to construct plackets for the leg slits.  
+If you are worried about a draft you will need to construct plackets for the leg slits.
 
 </Note>
 
@@ -123,7 +123,7 @@ You can _Edgestitch_ the waistband together like a modern waistband if you prefe
 
 </Note>
 
-### Step 6: Buttons 
+### Step 6: Buttons
 
 - Sew the waistband and leg band buttons on.
 

@@ -1,3 +1,7 @@
+- - -
+title: "Penelope pencil skirt: Sewing Instructions"
+- - -
+
 <Note>
 
 Due to the different styles and configurations of Penelope, we will first go over some tips of the different elements that make up a pencil skirt.
@@ -8,36 +12,36 @@ Due to the different styles and configurations of Penelope, we will first go ove
 
 ### Voering
 
-Potlood rokken zijn klein. Dit beperkt je beweging een beetje. Meer nog, wanneer je probeert te gaan zitten, zal de rok zich misschien van je taille proberen te trekken, of, als je een back-up hebt, blijf redelijk hoog op je bum. Door de rok te drinken kan het een stuk makkelijker rond je curves bewegen, waardoor je makkelijker kunt bewegen.
+Pencil skirts are tight. This limits your movement quite a bit. More so, when you try to sit down, the skirt may try to pull itself off your waist, or, when you get back up, stay quite high on your bum. Lining the skirt will make it move a lot easier around your curves, and thereby make it easier for you to move.
 
-Het toevoegen van de voering kan worden gedaan door een wat korter voor- en achterpand te maken, dat wat extra stof in het midden heeft. De extra stof maakt het makkelijker voor de voering om te bewegen. Eén centimeter voor elk van de voor- en achterpand is genoeg. Je kunt een kuisplooi maken voor- en achterpand, of de extra stof toevoegen waar de nepen zijn. Je hoeft geen nepen in de voering te stikken. Alleen een plooi op de neep positie zal goed zijn.
+Adding lining can be done by creating a slightly shorter front and back piece, that has some extra fabric in the middle. The extra fabric makes it easier for the lining to move. One inch for each of the front and back pieces is enough. You can either make a box pleat in the front and back, or add the extra fabric where the darts are. You do not need to sew darts in the lining fabric. Just a pleat at the dart position will be fine.
 
 ### Tailleband
 
-Een tailleband is optioneel op Penelope. Als je het weggaat, zal er behoorlijk wat stress zijn aan de bovenkant van de rits. Zorg ervoor dat uw rits tegen de taak is. Een onzichtbare rits is misschien niet de beste optie dan, omdat ze niet altijd zoveel druk kunnen nemen.
+A waistband is optional on Penelope. If you omit it, there will be quite some stress on the top of the zipper. Make sure your zipper is up to the task. An invisible zipper might not be the best option then, since they can't always take that much strain.
 
 ### Rits
 
-Zonder de rits zal het onmogelijk zijn om in en uit de rok te geraken. Dus het zou minstens moeten zijn de lengte van je taille tot het grootste deel van je kont. Langer zal het makkelijker maken om de rok aan en uit te zetten. Gebruik er geen een die te lang is, omdat het deel van de naad waar de rits zich anders gedragen heeft dan het deel zonder het deel en u wilt het ook onzichtbaar maken in beweging.
+Without the zipper it will be impossible to get in and out of the skirt. So it should be at least the length from your waist to the largest part of your bum. Longer will make it easier to put the skirt on and off. Don't use one that's too long, because the part of the seam where the zipper is behaves differently than the part without it, and you want to try to make it invisible also in movement.
 
 Traditionally, an invisible zipper is used in a pencil skirt but a regular zipper will work just as well. You can even use a zipper that constrast your fabric if the fancy takes you. Choose what works for you and the style you're going for. Be creative (or not) it is entirely up to you! All though if your fabric is on the heavier side you might want to opt for a different closure entirely.
 
 ### Vuur
 
-Een split achter is optioneel met Peneloptie. Het stelt je in staat om veel makkelijker te lopen dan als je de rok zonder de rok maakt. De vent heeft ook invloed op waar de rits zich zal bevinden. Als je kiest voor geen split staat de standaard ritslocatie op de zijkant naad, en de achterkant wordt aangevouwen. Met de vent, moet er een naad zitten in het rugpand en de rits zit aan die naad.
+A vent in the back is optional with Penelope. It will allow you to walk a lot easier than if you make the skirt without it. The vent also influences where the zipper will be located. If you choose to have no vent, the default zipper location is on the side seam, and the back will be cut-on-fold. With the vent, there has to be a seam in the back piece, and the zipper will be located on that seam.
 
 ### Nepen
 
-Nepen worden gebruikt om het verschil tussen je taille en zitvlak te compenseren. Afhankelijk van dit verschil kunnen er twee nepen zijn, één neep of helemaal geen nepen. Meer nepen zorgen voor een potentieel betere pasvorm. Maar als de hoeveelheid stof die de neep krijgt te klein wordt, zal het aantal nepen afnemen. Anders zou het erg moeilijk zijn om de nepen te stikken, en ze zouden waarschijnlijk nogal onzichtbaar worden. Sommige van het verschil zal worden genomen door de zijnaad en als het verschil klein is, worden er geen nepen aan de voor- en achterkant toegevoegd.
+Darts are used to compensate for the difference between your waist and seat measurements. Depending on this difference, there can be two darts, one dart, or no darts at all. More darts make for a potentially better fit. But if the amount of fabric that the dart will take in becomes too small, the number of darts will be reduced. Otherwise it would be very difficult to sew the darts, and they would probably become rather unsightly. Some of the difference will be taken in by the side seam, and if the difference is small, no darts will be included in the front and back pieces.
 
 ## Constructie
 
 <Warning>
 
-We're not going to go into a full explanation on how to create all the individual details 
-that make up a pencil skirt. These instructions assume that you know how to sew a dart, insert an invisible 
-zipper, make a vent, etc. If not, there are numerous excellent articles available on the 
-web, both in writen form, and on video. If you do get stuck, you can always reach out to 
+We're not going to go into a full explanation on how to create all the individual details
+that make up a pencil skirt. These instructions assume that you know how to sew a dart, insert an invisible
+zipper, make a vent, etc. If not, there are numerous excellent articles available on the
+web, both in writen form, and on video. If you do get stuck, you can always reach out to
 [other FreeSewers](https://discord.freesewing.org/) in our discord.
 
 </Warning>
@@ -51,19 +55,19 @@ web, both in writen form, and on video. If you do get stuck, you can always reac
 
 ### Step 2: The zipper
 
-- With *good sides together*, sew the seam that has the zipper leaving the top open for the zipper.
+- With _good sides together_, sew the seam that has the zipper leaving the top open for the zipper.
 - Insert the zipper into the seam following the procedure that is appropriate for the type of zipper you're using.
 
 <Note>
-  
+
 If using a different closure, construct it during this step.
 
 </Note>
 
 ### Step 3: Sew the side seams
 
-- With *good sides together*, sew up both the side seams.
-- With *good sides together*, if not the zipper seam, sew the centre back seam either completely or down to the vent if included.
+- With _good sides together_, sew up both the side seams.
+- With _good sides together_, if not the zipper seam, sew the centre back seam either completely or down to the vent if included.
 
 ### Step 4: The lining (Optional)
 
@@ -90,17 +94,17 @@ If you prefer to insert the zipper with the main and lining fabric as one, you w
 
 - Face lengthwise half of the waistband.
 - Press a fold the waistband in half lengthwise.
-- With *good sides together* sew the face half of the waistband to the top of the skirt. Part of this waistband should overhang the zipper seam.
+- With _good sides together_ sew the face half of the waistband to the top of the skirt. Part of this waistband should overhang the zipper seam.
 - Press the waistband up and away from the skirt.
 - Press the remaining waistband seam allowances to the inside of the waistband.
 - Fold and press the waistband to the inside along fold line.
-- *Stitch in the ditch* to secure the waistband.
-- *Slipstitch* or *Whipstitch* the gap in the waistband that goes over the zipper seam
+- _Stitch in the ditch_ to secure the waistband.
+- _Slipstitch_ or _Whipstitch_ the gap in the waistband that goes over the zipper seam
 - Construct your preferred choice of closure where the waistband overlaps.
 
 <Note>
 
-Alternatively you can *Edgestitch* the waistband in place which will admit the need to hand-stitch the gap closed but this will leave visible stitching.  
+Alternatively you can _Edgestitch_ the waistband in place which will admit the need to hand-stitch the gap closed but this will leave visible stitching.\
 The closure can be a button and buttonhole, snaps or simple dress hooks. It's really up to you.
 
 </Note>
@@ -113,7 +117,7 @@ This step is only needed if you have not lined your skirt as the hem and vents w
 - Construct the vents with your preferred method
 - Press under the hem allowances of the skirt.
 - If hem is large enough and/or the fabric press under a small amount along the top, this will help to prevent farying.
-- Secure the hem in place with your preferred method. For instance you can sew from the outside or *Slipstitch* from the inside. This comes down to how you want the finished product to look.
+- Secure the hem in place with your preferred method. For instance you can sew from the outside or _Slipstitch_ from the inside. This comes down to how you want the finished product to look.
 
 <Tip>
 
@@ -124,7 +128,3 @@ If the seam allowances are big enough you can sew the hems as narrow hems. This 
 ### Step 7: Enjoy!
 
 - Now all that's left to do is to enjoy you new skirt!
-
-
-
-

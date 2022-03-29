@@ -1,3 +1,7 @@
+---
+title: "Collar roll"
+---
+
 ![Collar roll](collarroll.svg)
 
 How much the collar is taller than the collar stand at center back.
@@ -12,6 +16,6 @@ Increasing this does not make the collar higher (use the collar stand height for
 
 </Note>
 
-
 ## Effect of this option on the pattern
+
 ![This image shows the effect of this option by superimposing several variants that have a different value for this option](simon_collarroll_sample.svg "Effect of this option on the pattern")

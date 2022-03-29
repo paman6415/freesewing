@@ -1,6 +1,6 @@
 {
   "name": "@freesewing/svg2pdf",
-  "version": "2.20.4",
+  "version": "2.20.7",
   "description": "A freesewing.org backend to turn SVG patterns into (tiled) PDFs",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -40,9 +40,9 @@
     ]
   },
   "dependencies": {
-    "body-parser": "1.19.1",
+    "body-parser": "1.19.2",
     "cors": "2.8.5",
-    "express": "4.17.2",
+    "express": "4.17.3",
     "express-rate-limit": "^6.2.0",
     "formidable": "2.0.1",
     "rimraf": "3.0.2",

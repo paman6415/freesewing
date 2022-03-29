@@ -1,10 +1,10 @@
 {
   "name": "freesewing.org",
-  "version": "2.20.4",
+  "version": "2.20.7",
   "private": true,
   "scripts": {
-    "dev": "next dev -p 3002",
-    "develop": "next dev -p 3002",
+    "dev": "SITE=org node ../freesewing.shared/prebuild/index.mjs && next dev -p 3002",
+    "develop": "SITE=org node ../freesewing.shared/prebuild/index.mjs && next dev -p 3002",
     "prebuild": "SITE=org node ../freesewing.shared/prebuild/index.mjs",
     "build": "next build",
     "export": "yarn prebuild && next build && next export",
@@ -22,11 +22,11 @@
     "@mdx-js/runtime": "next",
     "@tailwindcss/typography": "^0.5.0",
     "algoliasearch": "^4.11.0",
-    "daisyui": "^1.16.2",
+    "daisyui": "^2.0.6",
     "lodash.get": "^4.4.2",
     "lodash.orderby": "^4.6.0",
     "lodash.set": "^4.3.2",
-    "netlify-cli": "^8.4.2",
+    "netlify-cli": "^9.4.0",
     "next": "latest",
     "react-hotkeys-hook": "^3.4.4",
     "react-instantsearch-dom": "^6.18.0",
@@ -38,11 +38,11 @@
     "rehype-stringify": "^9.0.2",
     "remark-copy-linked-files": "https://github.com/joostdecock/remark-copy-linked-files",
     "remark-gfm": "^3.0.1",
-    "remark-jargon": "^2.20.4"
+    "remark-jargon": "^2.20.7"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.0",
-    "eslint-config-next": "12.0.7",
+    "eslint-config-next": "12.1.0",
     "js-yaml": "^4.1.0",
     "postcss": "^8.4.4",
     "tailwindcss": "^3.0.1"

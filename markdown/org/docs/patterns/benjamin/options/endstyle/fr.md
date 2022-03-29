@@ -1,12 +1,15 @@
-![Trois formes de pointe différentes](endstyle.svg)
+- - -
+title: "End style"
+- - -
 
-En plus d'avoir quatre styles de nœud papillon différents, chaque style peut être personnalisé avec trois options de pointe différentes :
+![Three different tip shapes](endstyle.svg)
 
- - Droit
- - Pointu
- - Arrondi
+In addition to having four different bow tie styles, each style can be individualized with three different tip options:
 
-
+- Droit
+- Pointu
+- Arrondi
 
 ## Effet de cette option sur le motif
-![Cette image montre l'effet de cette option en superposant plusieurs variantes qui ont une valeur différente pour cette option](benjamin_endstyle_sample.svg "Effet de cette option sur le motif")
+
+![This image shows the effect of this option by superimposing several variants that have a different value for this option](benjamin_endstyle_sample.svg "Effect of this option on the pattern")

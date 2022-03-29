@@ -1,6 +1,18 @@
 # Change log for: @freesewing/components
 
 
+## 2.20.7 (2022-02-20)
+
+### Fixed
+
+ - Type-check for optionalMeasurements key in gist Closes [#1918](https://github.com/freesewing/freesewing/issues/1918)
+
+## 2.20.6 (2022-02-17)
+
+### Fixed
+
+ - Handle unset props.pattern in DraftConfigurator option.hide check
+
 ## 2.20.0 (2022-01-24)
 
 ### Added

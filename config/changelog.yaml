@@ -1,10 +1,32 @@
-Unreleased:
+2.20.7:
+  date: 2022-02-20
+
+  Fixed:
+    components:
+      - Type-check for optionalMeasurements key in gist
+        Closes [#1918](https://github.com/freesewing/freesewing/issues/1918)
+
+2.20.6:
+  date: 2022-02-17
+
+  Fixed:
+    css-theme:
+      - Set units on fontsizes to support scale setting
+    components:
+      - Handle unset props.pattern in DraftConfigurator option.hide check
+
+2.20.5:
+  date: 2022-02-17
 
   Fixed:
     backend:
       - Mitigate risk of denial-of-service attacks in catch-all route
     core:
       - Fix bug in Svg.escapeText() that only escaped the first quote
+    simon:
+      - Fixed grainline indicator on sleeve since it was slightly off-grain
+    simone:
+      - Fixed grainline indicator on sleeve since it was slightly off-grain
     svgtopdf:
       - Mitigate risk of denial-of-service attacks in / route
       - Rate-limit PDF generation endpoints

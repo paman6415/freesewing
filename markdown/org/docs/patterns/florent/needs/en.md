@@ -1,5 +1,5 @@
 ---
-title: What you need
+title: "Florent flat cap: What You Need"
 ---
 
 To make Florent, you will need the following:
@@ -9,4 +9,3 @@ To make Florent, you will need the following:
 - About 0.5 meters (0.6 yards) of lining fabric
 - Tape, a bit more than **head circumference** + **ease** that you used for the pattern
 - A sheet of plastic or something rigid for the brim (1 mm thick or less)
-

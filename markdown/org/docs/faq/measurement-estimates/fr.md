@@ -2,8 +2,7 @@
 title: Quels sont ces symboles à côté de mes mesures?
 ---
 
-Vous avez peut-être remarqué ce type d'icônes à côté de vos mesures :
-<Gauge val={0} theme='light' />
+You might have noticed these kind of icons next to your measurements: <Gauge val={0} theme='light' />
 
 La valeur qu'ils représentent montre à quel point la mesure s'écarte des proportions avec lesquelles nous testons nos conceptions :
 
@@ -99,11 +98,10 @@ La valeur qu'ils représentent montre à quel point la mesure s'écarte des prop
   </tr>
 </table>
 
-
 Ces indicateurs ont un double objectif :
 
- - Aidez vous à repérer des erreurs dans vos mesures (vous savez mieux où se trouvent vos aberrants)
- - Aidez vous à anticiper où notre logiciel pourrait avoir du mal à trouver de bons résultats
+- Aidez vous à repérer des erreurs dans vos mesures (vous savez mieux où se trouvent vos aberrants)
+- Aidez vous à anticiper où notre logiciel pourrait avoir du mal à trouver de bons résultats
 
 <Note>
 

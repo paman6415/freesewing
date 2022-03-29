@@ -1,5 +1,8 @@
+- - -
+title: "Paco pants: What You Need"
+- - -
 
-Um Paco zu erstellen, benötigst du Folgendes:
+To make Paco, you will need the following:
 
 - [Grundlegendes Nähzubehör](/docs/sewing/basic-sewing-supplies)
 - About 1.25 meters (1.4 yards) (depending on your height) of a suitable fabric ([see Fabric options](/docs/patterns/paco/fabric))
@@ -7,5 +10,3 @@ Um Paco zu erstellen, benötigst du Folgendes:
 - Ein wenig Schnittstellen für die Taschenschweißungen (nur erforderlich, wenn Sie sich für die Rückentaschen entschieden haben)
 - Eine Zeichenkette und zwei Ösen (optional)
 - Genug flache elastische Taille und Manschetten
-
-

@@ -1,5 +1,5 @@
 ---
-title: Bent What you need
+title: "Bent body Block: What You Need"
 ---
 
 To make Bent, you will need the following:
@@ -19,4 +19,3 @@ Dit wordt soms ook een paspatroon genoemd, alhoewel puristen zeggen dat dit twee
 Blokken worden meestal niet gemaakt zoals is, maar dienen als basis voor andere patronen.
 
 </Note>
-

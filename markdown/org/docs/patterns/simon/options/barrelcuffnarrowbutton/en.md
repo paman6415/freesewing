@@ -1,5 +1,8 @@
-![Barrel cuff narrow button](./barrelcuffnarrowbutton.svg)
+---
+title: "Cuff narrow button"
+---
 
+![Barrel cuff narrow button](./barrelcuffnarrowbutton.svg)
 
 Do you want an extra button to button up your cuff more tightly?
 
@@ -11,6 +14,6 @@ This does only apply to barrelcuffs. So if you picked a French cuff as cuff styl
 
 </Note>
 
-
 ## Effect of this option on the pattern
+
 ![This image shows the effect of this option by superimposing several variants that have a different value for this option](simon_barrelcuffnarrowbutton_sample.svg "Effect of this option on the pattern")

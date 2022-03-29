@@ -1,13 +1,17 @@
-![L'option d'aisance des hanches sur Aaron](./hipsease.svg)
+- - -
+title: "Hips ease"
+- - -
 
-Combien d'aisance voulez-vous pour les hanches ?
+![The hips ease option on Aaron](./hipsease.svg)
 
-Quelle que soit la valeur que vous choisissez, la valeur sera simplement ajoutée à votre mesure de tour de hanches lors de la génération du patron.
+How much room do you want at the hips?
+
+Whatever value you provide here will simply be added to your hips circumference measurement when drafting the garment.
 
 > ##### Cette option permet également des valeurs négatives.
 > 
 > Vous ne devriez utiliser d'aisance négative que si vous utilisez un tissu très extensible que vous voulez bien ajuster. Le taux d'élasticité général doit être configuré avec l'option du taux d'élasticité.
 
-
 ## Effet de cette option sur le motif
-![Cette image montre l'effet de cette option en superposant plusieurs variantes qui ont une valeur différente pour cette option](aaron_hipsease_sample.svg "Effet de cette option sur le motif")
+
+![This image shows the effect of this option by superimposing several variants that have a different value for this option](aaron_hipsease_sample.svg "Effect of this option on the pattern")

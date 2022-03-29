@@ -1,3 +1,7 @@
+---
+title: "Center back dart"
+---
+
 ![Centerback dart](centerbackdart.svg)
 
 Since nobody has a perfectly straight back, this pattern tapers in with 0.5 cm at the center back of your neck.
@@ -13,6 +17,6 @@ Technically this is not a dart, but I wasn't sure how else to call it. Suggestio
 
 </Note>
 
-
 ## Effect of this option on the pattern
+
 ![This image shows the effect of this option by superimposing several variants that have a different value for this option](wahid_centerbackdart_sample.svg "Effect of this option on the pattern")

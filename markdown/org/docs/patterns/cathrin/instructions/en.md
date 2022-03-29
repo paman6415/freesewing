@@ -1,3 +1,7 @@
+---
+title: "Cathrin corset: Sewing Instructions"
+---
+
 <Note>
 
 #### There are many ways to construct a corset
@@ -7,6 +11,7 @@ These instructions are just one way. With this method, I recommend using a wider
 Beginner corset makers should read the tutorials written by [Sidney Eileen](http://www.sidneyeileen.com), who demonstrates several different construction methods. [Foundations Revealed](https://www.foundationsrevealed.com) is a paywall site for corset makers, with several exceptional articles free for non members.
 
 #### Check the original tutorial
+
 This pattern is based on [this tutorial by Cathrin Alen](https://katafalk.wordpress.com/2010/06/24/underbust-pattern-tutorial/). Cathrin also has [this informative post on making corsets](https://katafalk.wordpress.com/2009/05/03/how-i-sew-corsets/) on her blog which you might find helpful.
 
 </Note>

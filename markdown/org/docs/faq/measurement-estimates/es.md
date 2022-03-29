@@ -2,8 +2,7 @@
 title: '¿Cuáles son esos símbolos al lado de mis medidas?'
 ---
 
-Puede que hayas notado este tipo de iconos junto a tus medidas:
-<Gauge val={0} theme='light' />
+You might have noticed these kind of icons next to your measurements: <Gauge val={0} theme='light' />
 
 El valor que representan muestra hasta qué punto la medición se desvia de las proporciones con las que probamos nuestros diseños:
 
@@ -99,11 +98,10 @@ El valor que representan muestra hasta qué punto la medición se desvia de las 
   </tr>
 </table>
 
-
 Estos indicadores tienen un doble propósito:
 
- - Ayúdanos a detectar errores en tus mediciones (sabes mejor dónde están tus externos)
- - Ayúdanos a anticipar donde nuestro software podría tener problemas para obtener buenos resultados
+- Ayúdanos a detectar errores en tus mediciones (sabes mejor dónde están tus externos)
+- Ayúdanos a anticipar donde nuestro software podría tener problemas para obtener buenos resultados
 
 <Note>
 

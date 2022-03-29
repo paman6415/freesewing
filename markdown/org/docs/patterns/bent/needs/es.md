@@ -1,5 +1,5 @@
 ---
-title: Bent What you need
+title: "Bent body Block: What You Need"
 ---
 
 To make Bent, you will need the following:
@@ -19,4 +19,3 @@ A veces también se llaman trampas, aunque los puristas argumentarán que un blo
 Los bloques normalmente no se hacen as-is sino que sirven como base para otros patrones.
 
 </Note>
-

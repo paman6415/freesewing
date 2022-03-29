@@ -1,7 +1,10 @@
 import themes from 'shared/themes/index.js'
 import ThemeIcon from 'shared/components/icons/theme.js'
+import { useTranslation } from 'next-i18next'
 
 const ThemePicker = ({ app, className }) => {
+  const { t } = useTranslation(['themes'])
+
   return (
       <div className={`dropdown ${className}`}>
         <div tabIndex="0" className={`
@@ -10,10 +13,7 @@ const ThemePicker = ({ app, className }) => {
           hover:bg-neutral hover:border-neutral-content
         `}>
           <ThemeIcon />
-          <span>{app.i18n
-            ? app.t(`${app.theme}Theme`)
-            : `${app.theme} Theme`
-          }</span>
+          <span>{t(`${app.theme}Theme`)}</span>
         </div>
         <ul
           tabIndex="0"
@@ -23,12 +23,11 @@ const ThemePicker = ({ app, className }) => {
             <li key={theme}>
               <button
                 onClick={() => app.setTheme(theme)}
-                className="btn btn-ghost text-base-content hover:bg-base-200"
+                className="btn btn-ghost hover:bg-base-200"
               >
-                {app.i18n
-                  ? app.t(`${theme}Theme`)
-                  : `${theme} Theme`
-                }
+                <span className="text-base-content">
+                  {t(`${theme}Theme`)}
+                </span>
               </button>
             </li>
           ))}

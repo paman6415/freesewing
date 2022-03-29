@@ -3,7 +3,6 @@ title: Wie wir deine Accountdaten verwenden
 order: 30
 ---
 
-
 ##### Welche persönlichen Daten speichern wir?
 
 - Deine E-Mail-Adresse
@@ -27,4 +26,3 @@ order: 30
 <Note>
 Diese Daten werden für jede Person mit einem Account auf unserer Website gespeichert.
 </Note>
-

@@ -17,7 +17,7 @@ spending much time to write a meaningful commit message:
 git add . && git commit -m "save"
 ```
 
-The way you can get the best of both worlds is by *rewriting history*.
+The way you can get the best of both worlds is by _rewriting history_.
 Save as many times you want, and when you've gotten to the point where
 you feel like you've hit a good milestone, roll them all back and commit
 anew with a nice commit message that makes it seem you had it all figured
@@ -94,11 +94,10 @@ Date:   Sun Jan 16 13:48:15 2022 +0100
 ```
 
 Instead, all the previous changes are now staged, and we can do a new commit,
-and rewrite our for quick-save commits into one commit that only commits the 
+and rewrite our for quick-save commits into one commit that only commits the
 end result of our repeated attempts.
 
 This approach keeps the commit history clean, not to mention that it makes
 you look like a total boss who gets everything right at the first attempt.
-
 
 [1]: https://github.com/freesewing/freesewing/commit/5204ff5c16327962108e1629716e045275d3bf84

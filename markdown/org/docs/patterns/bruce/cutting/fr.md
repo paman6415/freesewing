@@ -1,10 +1,14 @@
-Bruce se compose d'un dos, et de deux côtés, des intestins et des devants.
+- - -
+title: "Bruce boxer briefs: Cutting Instructions"
+- - -
 
- - **Tissu principal**
-   - Couper **1 dos** au pli
-   - Couper **2 faces**
-   - Couper **2 inserts**
-   - Couper **2 côtés**
+Bruce consists of a back, and two sides, insets and fronts.
+
+- **Tissu principal**
+  - Couper **1 dos** au pli
+  - Couper **2 faces**
+  - Couper **2 inserts**
+  - Couper **2 côtés**
 
 <Warning>
 
@@ -13,5 +17,3 @@ Bruce se compose d'un dos, et de deux côtés, des intestins et des devants.
 - **devant** : Coupez **deux fois**
 
 </Warning>
-
-

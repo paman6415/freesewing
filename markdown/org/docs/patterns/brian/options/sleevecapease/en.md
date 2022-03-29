@@ -1,5 +1,10 @@
+---
+title: "Sleevecap ease"
+---
 
-Determines the amount of sleevecap ease.
+---
+
+This option determines the amount of ease at the sleevecap.
 
 <Note>
 
@@ -10,6 +15,6 @@ For light fabric or knits, you want little to no sleevecap ease. For heavier wov
 
 </Note>
 
-
 ## Effect of this option on the pattern
+
 ![This image shows the effect of this option by superimposing several variants that have a different value for this option](brian_sleevecapease_sample.svg "Effect of this option on the pattern")

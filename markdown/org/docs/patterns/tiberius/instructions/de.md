@@ -1,3 +1,7 @@
+- - -
+title: "Tiberius Tunica: Sewing Instructions"
+- - -
+
 <Note>
 
 Tiberius ist ein historisch inspiriertes Schnittmuster, und für mehr Authentizität ist das Nähen per Hand das Mittel der Wahl. Ich selber verwende eine Nähmaschine. Tu, was immer dir besser gefällt.
@@ -7,7 +11,7 @@ Tiberius ist ein historisch inspiriertes Schnittmuster, und für mehr Authentizi
 ### Schritt 1: Nähen der Schulternähte
 
 - Put both parts with good sides together. Sew the shoulder seams, taking care to stop at the notches for the head opening.
-- Finish the seams, with a method of your choice. (If you used the fabrics recommended in the [fabric options](/docs/patterns/tiberius/fabric), they *will* fray. Folding the seam allowance twice, enclosing the raw edge and topstitching is an option. You can also use decorative topstitching.)
+- Finish the seams, with a method of your choice. (If you used the fabrics recommended in the [fabric options](/docs/patterns/tiberius/fabric), they _will_ fray. Folding the seam allowance twice, enclosing the raw edge and topstitching is an option. You can also use decorative topstitching.)
 
 <Note>
 

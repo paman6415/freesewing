@@ -33,12 +33,11 @@ macro('sprinkle', {
 })
 ```
 
-| Property     | Default    | Type       | Description | 
+| Property     | Default    | Type       | Description |
 |-------------:|------------|------------|-------------|
-| `mirror`     |            | `array`    | Array with 2 [Point](/reference/api/point) objects that define the *mirror line* |
+| `mirror`     |            | `array`    | Array with 2 [Point](/reference/api/point) objects that define the _mirror line_ |
 | `clone`      | `true`     | `bool`     | Whether to clone mirrored points and or paths |
 | `points`     |            | `array`    | An array of [Point](/reference/api/point) objects |
 | `paths`      |            | `array`    | An array of [Path](/reference/api/path) objects |
 | `prefix`     | `mirrored` | `string`   | A prefix to apply to the names of the clones points and or paths. Ignored if `nameFormat` is set |
 | `nameFormat` |            | `function` | A method that receives the name of the path or point and should return the name for the cloned path and or point |
-

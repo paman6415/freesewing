@@ -1,3 +1,7 @@
+---
+title: "Tip width"
+---
+
 ![Bow ties Wide and Narrow](tipwidth.svg)
 
 You can make BIG bow ties, or small ones. This option allows you to change the vertical size of the bows. Make
@@ -11,6 +15,6 @@ This option is ignored with the Square bow tie option. Square bow ties are as wi
 
 </Note>
 
-
 ## Effect of this option on the pattern
+
 ![This image shows the effect of this option by superimposing several variants that have a different value for this option](benjamin_tipwidth_sample.svg "Effect of this option on the pattern")

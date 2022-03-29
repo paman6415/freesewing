@@ -22,8 +22,8 @@ export default function(part) {
 }
 ```
 
-So far, we've kept to the *// Design pattern here* area, but now we're going to work on 
-the area under *// Complete?* 
+So far, we've kept to the _// Design pattern here_ area, but now we're going to work on
+the area under _// Complete?_
 
 <Note>
 
@@ -99,8 +99,8 @@ snippets.logo = new Snippet("logo", points.logo)
 
 <Note>
 
-  You can find all possible snippets in [our documentation](/reference/snippets/).
-  
+You can find all possible snippets in [our documentation](/reference/snippets/).
+
 </Note>
 
 ## Seam allowance
@@ -120,9 +120,9 @@ So you can simply remove that condition.
 
 However, for future refefence, `sa` is a variable that you can get from `part.shorthand()`
 just like `complete`. But instead of `true` or `false` it will hold the amount of seam allowance
-in mm. 
+in mm.
 
-Note that you can still do `if (sa)` because zero is *falsy*.
+Note that you can still do `if (sa)` because zero is _falsy_.
 
 We won't be adding seam allowance, but we will be doing something that is essentially the same.
 Rather than draw an outline outside our bib to indicate the seam allowance, we'll draw one within
@@ -144,12 +144,12 @@ as explained in [Adding text](/concepts/adding-text).
 
 ## Scalebox and title
 
-Two more macros and we're done. 
+Two more macros and we're done.
 
 The `title` macro adds a title to our part.
 It's not that big a deal here since we only have one part in our pattern.
 But patterns typically have many different parts, some of them which might look rather similar.
-That's why you should number your parts and give them a name. 
+That's why you should number your parts and give them a name.
 
 The `title` macro can help you with that:
 
@@ -170,12 +170,10 @@ points.scalebox = points.title.shift(-90, 55)
 macro("scalebox", { at: points.scalebox })
 ```
 
-And with that, our pattern is now *complete*:
+And with that, our pattern is now _complete_:
 
 <Example pattern="tutorial" part="step11">
 We used attributes to add color, dashes, text on a path and even opacity
 </Example>
 
-
-We're not done yet though. There's one more thing the user can ask for: a *paperless* pattern.
-
+We're not done yet though. There's one more thing the user can ask for: a _paperless_ pattern.

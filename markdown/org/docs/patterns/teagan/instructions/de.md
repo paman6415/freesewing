@@ -1,7 +1,10 @@
+- - -
+title: "Teagan T-shirt: Sewing Instructions"
+- - -
 
 ## Schritt 1: Schließe die Schulternähte
 
-![Schulternähte schließen](step01.svg)
+![Close the shoulder seams](step01.svg)
 
 - Platzieren Sie die Vorder- und Rückseite mit [guten Seiten zusammen](/docs/sewing/good-sides-together) oben. Die Schulternaht ausrichten.
 - Servieren Sie die Schulternaht oder nähen Sie sie mit einer schmalen Zickzack-Zickzack-Nähte nach der üblichen Nahtzugabe.
@@ -12,10 +15,10 @@ Optional: In einem Drapierstrick können Sie die Schulternähte durch das Nähen
 
 ## Schritt 2: In den Ärmeln setzen
 
-![In Ärmel setzen](step02.svg)
+![Set in sleeves](step02.svg)
 
 - Platzieren Sie Ihre jetzt befestigte Vorder- und Rückseite mit der guten Seite.
-- Identifizieren Sie die Vorder- und Rückseite jeder Ihrer Ärmel. (So trennen Sie den linken Ärmel von rechts.) (This is how you separate the left sleeve from the right.) On your paper pattern piece, the front side of the sleeve is to the left.
+- Identifizieren Sie die Vorder- und Rückseite jeder Ihrer Ärmel. (So trennen Sie den linken Ärmel von rechts.) On your paper pattern piece, the front side of the sleeve is to the right.
 - Platzieren Sie einen Ärmel oben auf der Vorder- und Rückseite mit der guten Seite.
 - Legen Sie die Oberseite der Ärmel mit der Schulternaht an. Vergewissern Sie sich, dass Vorder- und Rückseite des Ärmels mit den Vorder- und Rückenteilen Ihres Hemdes ausgerichtet sind.
 - Pin Sleeve am Platz entlang des gesamten Armlochs. Es gibt ein bisschen Ärmel Leichtigkeit, was bedeutet, dass der Ärmelkopf etwas länger ist als das Armloch. Leicht im oberen Teil des Ärmelkopfes während der Pinning.
@@ -40,7 +43,7 @@ Dies ist der komplexeste Schritt bei der Herstellung des Teagan T-Shirts, aber e
 
 ### Platzieren Sie den Beginn Ihrer Bindung
 
-![Platzieren Sie Ihre Bindung](step03a.svg)
+![Place your binding](step03a.svg)
 
 - Lege dein T-Shirt mit der guten Rückseite nach oben und platzieren Sie Ihren Bindestreifen mit der guten Seite nach unten (wie in guten Seiten gemeinsam). Ihre Bindung sollte an der Mitte der Halsöffnung beginnen.
 - Legen Sie den langen Rand Ihres Streifens mit dem Rand Ihres Stoffes aus, so dass der Streifen oben auf dem Stoff liegt (nicht in der Öffnung). Platzieren Sie die Ecke am Startpunkt.
@@ -48,14 +51,14 @@ Dies ist der komplexeste Schritt bei der Herstellung des Teagan T-Shirts, aber e
 
 ### Näh-Bindung
 
-![Näh-Bindung](step03b.svg)
+![Sew binding in place](step03b.svg)
 
 - Legen Sie Ihren Druckerfuß 3 cm entlang der Strickbindung, so dass ein 3 cm Schwanz nicht geheftet bleibt. Dies wird uns helfen, uns später an den Enden der Bindung zu beteiligen. Dann nähen Sie 1,5 cm vom Rand um den Halsöffner und strecken Sie die Bindung sanft während Sie nähen.  (Hinweis: Dies ist nicht die Standarderlaubnis.)
 - Stoppt das Nähen von 3 cm vor dem Ende, so dass ein Schwanz wie wir es zu Beginn getan haben.
 
 ### Bindungsende markieren und nähen
 
-![Nähenbindungsende](step03c.svg)
+![Sew binding ends](step03c.svg)
 
 - Es ist an der Zeit, die Enden der Bindung zusammen zu nähen, bevor wir unseren Kreis vollenden.
 - Nehmen Sie eine der Kanten und strecken Sie sie entlang der 3cm vom Startpunkt ab, wie Sie es beim Nähen tun würden. Auf der Bindung markieren, wo die Bindung den Startpunkt erreicht hat. Tun Sie das Gleiche für das andere Ende.
@@ -67,13 +70,13 @@ Dies ist der komplexeste Schritt bei der Herstellung des Teagan T-Shirts, aber e
 
 </Note>
 
-![Bindung beenden](step03d.svg)
+![Finish binding](step03d.svg)
 
 - Nun, da Ihre Bindungsenden miteinander verbunden sind, ist es an der Zeit, die letzten 6 cm Bindung zu beenden. Nähen Sie es nach unten, bleiben Sie 1,5 cm von der Kante wie zuvor.
 
 ### Strickbinder an den Rücken falten und nach unten nähen
 
-![Bindung abnähen](step03e.svg)
+![Sew down binding](step03e.svg)
 
 - Falten Sie Ihren Bindegewebe um den Stoff Ihres T-Shirts auf den Rücken. So werden wir es einnähen.
 - Während der Stoff doppelt geklappt ist (Verstecke den Stoffrand im Prozess), ist das auf der Rückseite nicht nötig. Wir werden den Rand später einfach zurückschneiden, da der Strick nicht schwenkt. Wenn wir den Stoff auch auf der Rückseite zurückklappen würden, würde er nur noch mehr massieren.
@@ -87,8 +90,9 @@ Wenn Sie eine Coverlock Maschine haben, wäre das perfekt für diese Naht.
 
 <Note>
 
-##### Vorsicht vor dem ungleichen Feed
-als Feed für deine Bindung durch deine Nähmaschine, die Futterhunde ziehen die untere Schicht (hinten der Bindung) vorwärts.
+##### Beware of the uneven feed
+
+As your feed your binding through your sewing machine, the feed dogs will pull the bottom layer (back of your binding) forward.
 
 In einer perfekten Welt folgen alle Ebenen reibungslos. In den meisten Fällen hinkt die obere Ebene (vor der Bindung) ein bisschen hinterher. Dadurch wird Ihre Bindung nicht sauber am Stoffrand gefaltet, sondern hässliche Falten erzeugt.
 
@@ -99,7 +103,7 @@ Auf der Innenseite Ihres T-Shirts die Strickbinde direkt außerhalb der Naht zur
 
 ## Schritt 4: Schließe die Seitennaht und Ärmel
 
-![Seitennaht und Ärmel schließen](step04.svg)
+![Close the side seams and sleeves](step04.svg)
 
 - Falten Sie Ihr Teagan T-Shirt doppelt an den Schulternähten mit guten Seiten zusammen.
 - Legen Sie die Seitennaht und die Ärmel an und fixieren Sie sie zusammen.
@@ -108,14 +112,15 @@ Auf der Innenseite Ihres T-Shirts die Strickbinde direkt außerhalb der Naht zur
 
 ## Schritt 5: Saum und Ärmel beenden
 
-![Saum und Ärmel beenden](step05.svg)
+![Finish hem and sleeves](step05.svg)
 
 - Falte den Saum nach oben, nach innen, und nähe ihn nach unten. Wenn du einen Coverlock hast, benutze es. Wenn nicht, verwenden Sie eine Zick-Zick-Zick-Zack-Nadelstichung, um die Naht dehnbar zu halten.
 - Wiederholen Sie den Saum auf jedem Ärmel.
 
 <Note>
 
-##### Nur einmal falten, um Masse zu vermeiden
-Knitwear nicht schwenken, so können Sie diese einfach einmal falten und nach unten nähen, dann sauber den Stoff zurückschneiden.
+##### Fold only once, to avoid bulk
+
+Knitwear doesn’t ravel, so you can simply fold this over once and sew it down, then neatly trim back the fabric.
 
 </Note>

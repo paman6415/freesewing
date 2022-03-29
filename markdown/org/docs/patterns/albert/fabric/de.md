@@ -1,6 +1,9 @@
+- - -
+title: "Albert apron: Fabric Options"
+- - -
 
-Eine Schürze funktioniert am besten aus einem robusten, straffen und leicht zu reinigenden Stoff. Achte zusätzlich darauf, natürliche Fasern zu verwenden, und in jedem Fall etwas, das hitzebeständig ist.
+An apron works best with a fabric that is sturdy, tightly woven, and easy to clean. In addition, make sure to go for a natural fibre and in any case something that is heat-resistant.
 
 Heavy cotton, chino, canvas or denim are all excellent choices.
 
-Im Zweifelsfall wähle rohes Denim/Jeansstoff (reine Baumwolle, wenn es dehnbar ist, taugt es nichts).
+When in doubt, go for raw denim (pure cotton, if it stretches it's no good).

@@ -1,5 +1,5 @@
 ---
-title: Bee What you need
+title: "Bee bikini top: What You Need"
 ---
 
 To make Bee, you will need the following:
@@ -11,8 +11,8 @@ To make Bee, you will need the following:
 
 <Note>
 
-The lining fabric is only needed if you want to make this pattern reversible. If you don't, you only need the main fabric.  
-You can use a serger/overlocker to construct this pattern but it is not mandatory.  
+The lining fabric is only needed if you want to make this pattern reversible. If you don't, you only need the main fabric.\
+You can use a serger/overlocker to construct this pattern but it is not mandatory.\
 Ribbons/Tapes/Cords can be used instead of making custom ties. Just make sure to get more than you need and that you cut down to size after construction.
-  
+
 </Note>

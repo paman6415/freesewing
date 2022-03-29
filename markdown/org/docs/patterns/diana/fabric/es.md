@@ -1,5 +1,8 @@
+- - -
+title: "Diana draped top: Fabric Options"
+- - -
 
-Este top funciona mejor en estos dos escenarios:
+This top works best in one of these two scenarios:
 
- - Usa una tela elástica, y elige holgura mínima
- - O usa una tela rígida con un buen *drapeado*, en cuyo caso tendrás que añadir holguras. Las telas con caída se pueden cortar al bies para que queden ajustadas al cuerpo
+- Usa una tela elástica, y elige holgura mínima
+- Or use a non-stretch fabric with good _drape_, in which case you'll want to add more ease. Las telas con caída se pueden cortar al bies para que queden ajustadas al cuerpo

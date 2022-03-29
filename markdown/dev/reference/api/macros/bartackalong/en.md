@@ -2,7 +2,7 @@
 title: bartackAlong
 ---
 
-The `bartackAlong` macro allows you to add a *bartack* marker to your sewing pattern.
+The `bartackAlong` macro allows you to add a _bartack_ marker to your sewing pattern.
 More specifically, a bartack along a path.
 It is provided by the [bartack plugin](/reference/plugins/bartack/).
 
@@ -33,7 +33,7 @@ macro('sprinkle', {
 })
 ```
 
-| Property     | Default    | Type       | Description | 
+| Property     | Default    | Type       | Description |
 |-------------:|------------|------------|-------------|
 | `angle`      | `0`        | `number`   | The angle under which to draw the bartack |
 | `density`    | `3`        | `number`   | Controls how close the stitches are togeter |
@@ -43,4 +43,3 @@ macro('sprinkle', {
 | `prefix`     |            | `string`   | A prefix to apply to the names of the generated path and points |
 | `suffix`     |            | `string`   | A suffix to apply to the names of the generated path and points |
 | `width`      | `3`        | `number`   | Width of the bartack |
-

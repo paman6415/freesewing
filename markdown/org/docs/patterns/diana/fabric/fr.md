@@ -1,5 +1,8 @@
+- - -
+title: "Diana draped top: Fabric Options"
+- - -
 
-Ce haut sera mieux dans l'un de ces deux scénarios :
+This top works best in one of these two scenarios:
 
- - Utilisez un tissu stretch et choisissez une aisance minimale
- - Ou utilisez un tissu sans élasticité mais avec un bon *drapé*, auquel cas il faudra ajouter un peu plus d'aisance. Les tissus fluides peuvent être coupés dans le biais pour un effet plus souple qui épousera mieux les formes du corps.
+- Utilisez un tissu stretch et choisissez une aisance minimale
+- Or use a non-stretch fabric with good _drape_, in which case you'll want to add more ease. Les tissus fluides peuvent être coupés dans le biais pour un effet plus souple qui épousera mieux les formes du corps.

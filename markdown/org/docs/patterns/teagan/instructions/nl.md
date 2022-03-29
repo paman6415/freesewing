@@ -1,7 +1,10 @@
+- - -
+title: "Teagan T-shirt: Sewing Instructions"
+- - -
 
 ## Stap 1: Sluit de schoudernaden
 
-![Sluit de schoudernaden](step01.svg)
+![Close the shoulder seams](step01.svg)
 
 - Leg het voor- en achterpand op elkaar met [goede kanten op elkaar](/docs/sewing/good-sides-together). Leg de schoudernaden gelijk.
 - Lock de schoudernaden of stik ze met een smalle (~2 mm) zigzagsteek aan de standaard naadwaarde.
@@ -12,10 +15,10 @@ Optioneel: In een draaiknop kun je ervoor kiezen om de schoudernaden te versterk
 
 ## Stap 2: Zet de mouwen in
 
-![Zet de mouwen in](step02.svg)
+![Set in sleeves](step02.svg)
 
 - Leg je aan elkaar bevestigde voor- en achterpand neer met de goede kant naar boven.
-- Identificeer de voor- en achterkanten van elke mouw. (Dit is hoe je de linker mouw van rechts scheidt.) Op het patroondeel van je papier staat de voorkant van de mouw aan de linkerkant.
+- Identificeer de voor- en achterkanten van elke mouw. (Dit is hoe je de linker mouw van rechts scheidt.) On your paper pattern piece, the front side of the sleeve is to the right.
 - Leg een mouw bovenop de voor- en achterkant, met de goede kant naar beneden.
 - Leg de bovenkant van de mouwkop gelijk met de schoudernaad. Zorg dat de voor- en achterkant van de mouw gelijk staan met de voor- en achterpanden van je shirt.
 - Speld de mouw op z'n plaats langs het hele armsgat. Er is een beetje extra stof in de mouwkop, wat betekent dat de mouwkop iets langer is dan het armsgat. Verbeter het bovenste deel van de mouwkop tijdens het spelden.
@@ -40,7 +43,7 @@ Dit is de meest complexe stap in het maken van een T-shirt in Teagan, maar het v
 
 ### Positioneer (het begin van) je bies
 
-![Plaats je bies](step03a.svg)
+![Place your binding](step03a.svg)
 
 - Leg je T-shirt neer met de goede kant omhoog. en leg je bies bovenop met de goede kant naar beneden (zoals in, goede kanten op elkaar). De bies moet aan de middenachterkant van de halsopening beginnen.
 - Leg de lange rand van je bies gelijk met de rand van je stof zodat de bies op de stof ligt (en niet in de opening). Leg de hoek van je bies op je startpunt.
@@ -48,14 +51,14 @@ Dit is de meest complexe stap in het maken van een T-shirt in Teagan, maar het v
 
 ### Stik de bies vast
 
-![Stik de bies vast](step03b.svg)
+![Sew binding in place](step03b.svg)
 
 - Leg je presservoet 3 cm langs de jersey bies, zodat een staart van 3 cm onverstikt blijft. Dit helpt ons later aan de uiteinden van de binding te komen. Stik dan 1,5 cm van de rand rond de halsopening, rek de bies zachtjes uit terwijl je stikt.  (Let op: dit is niet de standaard naadwaarde)
 - Stop met 3 cm voor het uiteinde en een staart achterlaten zoals we aan het begin deden.
 
 ### Markeer en stik de uiteinden van de bies
 
-![Stik de bies aan](step03c.svg)
+![Sew binding ends](step03c.svg)
 
 - Met nog een zestal cm te gaan voordat we onze cirkel voltooien, is het tijd om de uiteindes van de bies samen te stikken.
 - Neem een van de randen en rek het uit over de 3 cm van het beginpunt en je zou het ook tijdens het naaien. Op de binding, merk waar de bies het startpunt bereikte. Doe hetzelfde voor het andere uiteinde.
@@ -67,13 +70,13 @@ Dit is de meest complexe stap in het maken van een T-shirt in Teagan, maar het v
 
 </Note>
 
-![Einde binding](step03d.svg)
+![Finish binding](step03d.svg)
 
 - Nu de uiteindes van je bies aan elkaar bevestigd zijn, is het tijd om de laatste 6 cm van je bies te bevestigen. Naai dit stukje, 1,5 cm van de rand, zoals eerder.
 
 ### Plooi jersey bies naar achter en stik vast
 
-![Stik de bies vast](step03e.svg)
+![Sew down binding](step03e.svg)
 
 - Plooi je bies rond de stof van je T-shirt naar de achterkant. Zo gaan we het vaststikken.
 - Terwijl de stof aan de voorkant dubbel geplooid is (verstopt de rand van de stof in het proces), is dat aan de achterkant niet nodig. Later knippen we het randje gewoon terug, aangezien mes niet rafelt. Als we de bies aan de achterkant ook zouden plooien zou dit alleen maar bulk toevoegen.
@@ -87,8 +90,9 @@ Als je een coverlock hebt is dit ook een perfect moment om die te gebruiken.
 
 <Note>
 
-##### Pas op voor de oneven feed
-Als je je bies via je naaimachine, de feed honden trekken de onderste laag (achterkant van je binding) vooruit.
+##### Beware of the uneven feed
+
+As your feed your binding through your sewing machine, the feed dogs will pull the bottom layer (back of your binding) forward.
 
 In een ideale wereld zouden alle lagen gelijkmatig volgen. Maar meestal blijft de bovenste laag (de voorkant van je bies) wat achter. Dit zorgt dat je bies niet helemaal recht rond de randjes geplooid ligt, en lelijke rimpels maakt.
 
@@ -99,7 +103,7 @@ Knip de bies bij aan de binnenkant van je T-shirt, net buiten de naad om ze af t
 
 ## Stap 4: Sluit de zijnaden en mouwen
 
-![Sluit de zijnaden en mouwen](step04.svg)
+![Close the side seams and sleeves](step04.svg)
 
 - Plooi je Teagan T-shirt dubbel aan de schoudernaden met de goede kanten op elkaar.
 - Leg de zijnaden en mouwen gelijk en speld ze samen.
@@ -108,14 +112,15 @@ Knip de bies bij aan de binnenkant van je T-shirt, net buiten de naad om ze af t
 
 ## Stap 5: Werk de zoom en mouwen af
 
-![Werk zoom en mouwen af](step05.svg)
+![Finish hem and sleeves](step05.svg)
 
 - Plooi de zoom naar boven, naar binnen, en stik hem vast. Als je een coverlock hebt is dit het moment om hem te gebruiken. Indien niet, gebruik een tweelingnaald of een zigzagsteek zodat de zoom elastisch blijft.
 - Herhaal de zoom op elke mouw.
 
 <Note>
 
-##### Slechts eenmaal vouw vouw om bulk
-te voorkomen wordt niet ravel, dus je kan dit gewoon een keer omplooien en vaststikken, en dan de stof netjes bijknippen.
+##### Fold only once, to avoid bulk
+
+Knitwear doesn’t ravel, so you can simply fold this over once and sew it down, then neatly trim back the fabric.
 
 </Note>

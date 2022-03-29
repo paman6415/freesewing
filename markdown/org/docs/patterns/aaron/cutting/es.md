@@ -1,14 +1,17 @@
+- - -
+title: "Aaron A-Shirt: Cutting Instructions"
+- - -
 
- - Corta **1 trasero** al lomo
- - Corta **1 delantero** al lomo
- - Corta **3 tiras** para abrir el cuello y acoplar el blindaje
+- Corta **1 trasero** al lomo
+- Corta **1 delantero** al lomo
+- Corta **3 tiras** para abrir el cuello y acoplar el blindaje
 
 <Warning>
 
-#### Cuerdas
+#### Caveats
 
- - No hay permisos de costura en los brazos 
- - No hay permisos de costura en la abertura del cuello
- - Hay una franquicia extra en la sombra
+- There is no seam allowance on the armholes
+- There is no seam allowance on the neck opening
+- There is extra hem allowance at the hem
 
 </Warning>

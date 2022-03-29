@@ -1,3 +1,7 @@
+---
+title: "Sleevecap top Y"
+---
+
 ![The vertical location of the sleevecap top](./sleevecaptopfactory.svg)
 
 This option controls the vertical placement of the sleevecap top.
@@ -9,6 +13,6 @@ look into how the sleevecap is constructed and the influence of the different op
 
 </Tip>
 
-
 ## Effect of this option on the pattern
+
 ![This image shows the effect of this option by superimposing several variants that have a different value for this option](simone_sleevecaptopfactory_sample.svg "Effect of this option on the pattern")

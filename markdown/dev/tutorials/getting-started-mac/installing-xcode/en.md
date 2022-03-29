@@ -15,4 +15,3 @@ xcode-select --install
 
 A popup will appear asking you to confirm the installation.
 Confirm, and go make a cup of coffee while the install does its thing.
-

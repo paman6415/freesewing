@@ -3,9 +3,8 @@ title: How we use your account data
 order: 30
 ---
 
-
 ##### What personal data do we store?
- 
+
 - Your E-mail address
 - Your username and password
 - Optional: A profile picture, bio, and your social media accounts
@@ -27,4 +26,3 @@ order: 30
 <Note>
 This data is stored for anybody with an account on our website.
 </Note>
-

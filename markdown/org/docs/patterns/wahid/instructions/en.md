@@ -1,3 +1,7 @@
+---
+title: "Wahid waistcoat: Sewing Instructions"
+---
+
 ### Step 1: Fuse interfacing
 
 #### Press interfacing to pocket welts
@@ -35,6 +39,7 @@ Place your front facing and lining with good sides together. Pin the edges of th
 Sew them together.
 
 #### Press open seam allowance
+
 Press open the seam allowance between facing and lining.
 
 ### Step 3: Close all darts
@@ -48,6 +53,7 @@ Fold your back with good sides together, and sew the back dart.
 > Don't forget to do the same for the lining
 
 #### Close front darts
+
 Fold your front (and the interfacing fused to it) with good sides together, and sew the front dart.
 
 ### Step 4: Press all darts
@@ -55,9 +61,11 @@ Fold your front (and the interfacing fused to it) with good sides together, and 
 ![Press all darts](04a.png)
 
 #### Press the front darts
+
 Once cut open, press the front darts open.
 
 #### Press the back darts
+
 If you cut open the back darts, press them open. If not, press them to the side.
 
 > Don't forget to do the same for the lining
@@ -73,6 +81,7 @@ Place your pocket bag down with the good side up, and your pocket welt on top of
 Align the straight side of the bag with the side of the welt that has no interfacing, and sew them together at the standard seam allowance.
 
 #### Press seam open
+
 When you are done, press open this seam.
 
 #### Mark where your pocket needs to go
@@ -138,10 +147,10 @@ Fold them back making sure you to keep your pocket opening a clean rectangle, an
 
 #### Bring the pocket welt to the back, fold and press
 
-![Bring the pocket welt to the front, fold and press](05i.png)
-![Bring the pocket welt to the front, fold and press](05j.png)
+![Bring the pocket welt to the back, fold and press](05i.png)
+![Bring the pocket welt to the back, fold and press](05j.png)
 
-Flip the pocket welt with the attache pocket back tot he back side.
+Flip the pocket welt with the attached pocket back tot he back side.
 
 Fold your welt down at the point where it reaches the top of the pocket. The welt should cover the entire pocket opening.
 
@@ -250,6 +259,7 @@ Now fold back your lining a bit before the edge of the armhole and pin it down.
 Use a slipstitch to hand-sew the lining to the fabric all along the armhole.
 
 ### Step 11: Finish the hem
+
 Remember that gap we didn't close in step 9? Time to close it.
 
 Use a slipstitch to hand-sew the lining to the fabric and close the hem.

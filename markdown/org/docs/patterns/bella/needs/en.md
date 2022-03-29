@@ -1,5 +1,5 @@
 ---
-title: Bella What you need
+title: "Bella body block: What You Need"
 ---
 
 To make Bella, you will need the following:
@@ -19,4 +19,3 @@ They are sometimes also called slopers, although purists will argue that a block
 Blocks are typically not made as-is but rather serve as a basis for other patterns.
 
 </Note>
-

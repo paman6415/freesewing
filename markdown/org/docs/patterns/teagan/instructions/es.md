@@ -1,7 +1,10 @@
+- - -
+title: "Teagan T-shirt: Sewing Instructions"
+- - -
 
 ## Paso 1: Cierra las costuras del hombro
 
-![Cerrar las costuras del hombro](step01.svg)
+![Close the shoulder seams](step01.svg)
 
 - Coloca el frente y la parte trasera sobre el otro con [buenos lados juntos](/docs/sewing/good-sides-together). Alinear las costuras del hombro.
 - Servir las costuras del hombro o unirlas con un zigzag estrecho (~2 mm) en la costura estándar.
@@ -12,10 +15,10 @@ Opcional: En un tejedor más apretado, puede optar por reforzar las costuras del
 
 ## Paso 2: Establecer en mangas
 
-![Establecer en mangas](step02.svg)
+![Set in sleeves](step02.svg)
 
 - Coloca tu ahora unido frente y atrás con el lado bueno arriba.
-- Identifique los lados delanteros y traseros de cada una de sus mangas. (Así es como separas la manga izquierda de la derecha.) (This is how you separate the left sleeve from the right.) On your paper pattern piece, the front side of the sleeve is to the left.
+- Identifique los lados delanteros y traseros de cada una de sus mangas. (Así es como separas la manga izquierda de la derecha.) On your paper pattern piece, the front side of the sleeve is to the right.
 - Coloque una manga en la parte superior de la parte frontal y trasera, con el lado bueno abajo.
 - Alínea la parte superior de la manga con la costura del hombro. Asegúrate de que la parte delantera y trasera de la manga esté alineada con las partes delanteras y traseras de tu camiseta.
 - Pin manga en su lugar a lo largo de todo el orificio. Hay un poco de facilidad de mangas, lo que significa que la cabeza de manga es un poco más larga que el orificio. Eche en la parte superior de la cabeza de manga mientras se pincha.
@@ -40,7 +43,7 @@ Este es el paso más complejo para hacer la camisa de Teagan, pero sólo requier
 
 ### Colocar (el inicio de) tu vinculación
 
-![Coloca tu vinculación](step03a.svg)
+![Place your binding](step03a.svg)
 
 - Pon tu camisa abajo con la parte trasera buena arriba, y coloque su tira de unión en la parte superior con el lado bueno hacia abajo (como en los lados buenos juntos). Su unión debe comenzar en la parte central de la parte trasera del cuello.
 - Alínea el largo borde de tu tira con el borde de tu tela para que la tira se encuentre en la parte superior de la tela (no en la abertura). Coloque la esquina en su punto de partida.
@@ -48,14 +51,14 @@ Este es el paso más complejo para hacer la camisa de Teagan, pero sólo requier
 
 ### Marcar enlace en su lugar
 
-![Marcar enlace en su lugar](step03b.svg)
+![Sew binding in place](step03b.svg)
 
 - Coloque su pie más presor de 3 cm a lo largo del encuadernado para que una cola de 3 cm quede desenterrada. Esto nos ayudará a unirnos a los fines de lo vinculante más adelante. Luego, coser a 1,5 cm del borde alrededor del cuello, estirando la unión suavemente a medida que codes.  (Nota: esta no es la costura estándar.)
 - Dejar de coser 3 cm antes del final, dejando una cola como lo hicimos al principio.
 
 ### Marcar y coser extremos de enlace
 
-![Finales de encuadernación](step03c.svg)
+![Sew binding ends](step03c.svg)
 
 - Con alrededor de 6 cm para ir antes de completar nuestro círculo, es hora de coser los extremos de la unión juntos.
 - Tome uno de los bordes, y lo estire a lo largo de los 3 cm separándolo del punto de partida como lo haría mientras coser. En el encuadernador, marque donde el enlace alcanzó el punto de partida. Haga lo mismo con el otro extremo.
@@ -67,13 +70,13 @@ Este es el paso más complejo para hacer la camisa de Teagan, pero sólo requier
 
 </Note>
 
-![Finalizar enlace](step03d.svg)
+![Finish binding](step03d.svg)
 
 - Ahora que los extremos de la unión están unidos, es hora de terminar los últimos 6 cm de encuadernación. Manténgalo abajo, permaneciendo a 1,5 cm del borde como lo hiciste antes.
 
 ### Doble unión de tejidos a la espalda y coser
 
-![Navegar por enlace](step03e.svg)
+![Sew down binding](step03e.svg)
 
 - Doblar tu tela de unión alrededor de la tela de tu camisa hacia la espalda. Así es como lo costaremos.
 - Mientras que la tela está doblada en la parte delantera (ocultando el borde de la tela en el proceso), no hay necesidad de eso en la parte trasera. Simplemente recortaremos el borde más tarde, dado que el nudo no se cuelga. Si tuviésemos que doblar la tela también en la espalda, sólo añadiríamos granel.
@@ -87,8 +90,9 @@ Si usted tiene una máquina de cierre, eso sería perfecto para esta costura.
 
 <Note>
 
-##### Cuidado con el alimento desigual
-Como tu alimento tu vinculación a través de tu máquina de coser, los perros de alimentación tirarán hacia adelante la capa inferior (parte trasera de su enlazamiento).
+##### Beware of the uneven feed
+
+As your feed your binding through your sewing machine, the feed dogs will pull the bottom layer (back of your binding) forward.
 
 En un mundo perfecto, todas las capas seguirán sin problemas. Pero la mayoría de las veces la capa superior (frontal de su enlace) tiende a retrasarse un poco. Esto hace que su unión no se pliega bien alrededor del borde del tejido, sino que haga tortillas feas.
 
@@ -99,7 +103,7 @@ En el interior de tu camiseta, recorta el enrollado justo fuera de tu costura pa
 
 ## Paso 4: Cierre las costuras y mangas laterales
 
-![Cerrar costuras y mangas](step04.svg)
+![Close the side seams and sleeves](step04.svg)
 
 - Doble tu camisa de Teagan doble en las costuras de hombro con buenos lados juntos.
 - Alinear las costuras y mangas laterales y fijarlas juntos.
@@ -108,14 +112,15 @@ En el interior de tu camiseta, recorta el enrollado justo fuera de tu costura pa
 
 ## Paso 5: Termina el corte y mangas
 
-![Terminar el corte y mangas](step05.svg)
+![Finish hem and sleeves](step05.svg)
 
 - Doblar la sombra hacia arriba, hacia el interior, y coser. Si tienes una cubierta, úsala. Si no es así, utilice una aguja gemela o una stitch zig-zag para mantener la costura estirable.
 - Repita por el cabo de cada manga.
 
 <Note>
 
-##### Doblar solo una vez, para evitar el grueso
-El brillo no se cuelga, así que puede doblar esto una vez y coser la tela, luego recortar la tela.
+##### Fold only once, to avoid bulk
+
+Knitwear doesn’t ravel, so you can simply fold this over once and sew it down, then neatly trim back the fabric.
 
 </Note>

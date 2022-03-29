@@ -1,8 +1,13 @@
+---
+title: "Shin swim trunks: Cutting Instructions"
+---
+
 - Cut **2 backs** with good sides together
 - Cut **4 fronts** 2 x 2 with good sides together
 - Cut **1 waistband**
 
 ## Caveats
+
 - To save paper, the waistband is not completely printed on the pattern since it's just a long rectangle. So look for the length indicator, and cut out a rectangle of that size.
 - The hem allowance is double the standard seam allowance.
 
@@ -18,4 +23,4 @@ The [pattern notation guide][1] explains all the different markings and lines on
 
 </Tip>
 
-[1]:/docs/various/notation/
+[1]: /docs/various/notation/

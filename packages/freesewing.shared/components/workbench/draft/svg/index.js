@@ -12,6 +12,8 @@ const Svg = ({
   children,
   xray=false
 }) => {
+  if (width < 1) width = 1000
+  if (height < 1) height = 1000
   let attributes = {
     xmlns: 'http://www.w3.org/2000/svg',
     'xmlns:svg': 'http://www.w3.org/2000/svg',

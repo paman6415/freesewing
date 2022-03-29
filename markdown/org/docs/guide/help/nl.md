@@ -3,6 +3,6 @@ title: Hulp krijgen
 order: 999
 ---
 
-Als je vastzit of vragen hebt, kan je [je aansluiten bij Discord](https://discord.freesewing.org/) waar er altijd iemand is die je helpt te helpen.
+Als je ergens vastloopt of je hebt een vraag, kan je [meedoen aan onze Discord](https://discord.freesewing.org/), waar er altijd iemand is om je te helpen.
 
-Je kunt ook een paar van de andere plaatsen [bekijken waar je ons kunt vinden](/community/where/).
+Daarnaast zijn er andere plekken [waar je ons kan vinden](/community/where/).

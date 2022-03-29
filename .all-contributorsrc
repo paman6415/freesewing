@@ -636,7 +636,8 @@
       "profile": "http://metafly.info/",
       "contributions": [
         "translation",
-        "doc"
+        "doc",
+        "code"
       ]
     },
     {
@@ -775,6 +776,42 @@
       "contributions": [
         "doc",
         "code"
+      ]
+    },
+    {
+      "login": "eltociear",
+      "name": "Ikko Ashimine",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22633385?v=4",
+      "profile": "https://bandism.net/",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "fmatray",
+      "name": "Frédéric",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8267716?v=4",
+      "profile": "https://github.com/fmatray",
+      "contributions": [
+        "translation"
+      ]
+    },
+    {
+      "login": "drowned-in-books",
+      "name": "drowned-in-books",
+      "avatar_url": "https://avatars.githubusercontent.com/u/100040772?v=4",
+      "profile": "https://github.com/drowned-in-books",
+      "contributions": [
+        "question"
+      ]
+    },
+    {
+      "login": "mesil",
+      "name": "mesil",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14284175?v=4",
+      "profile": "https://github.com/Mesil",
+      "contributions": [
+        "bug"
       ]
     }
   ],

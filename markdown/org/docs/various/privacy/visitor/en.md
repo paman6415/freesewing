@@ -10,7 +10,7 @@ order: 10
 ##### Why do we need it?
 
 - Your IP address is logged on our backend systems. We use these logs and the information in them only to diagnose problems.
- 
+
 ##### How long do we keep it?
 
 - We keep these logs no longer than 6 months.

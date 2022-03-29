@@ -1,9 +1,13 @@
- **Oberstoff**
+- - -
+title: "Titan trouser block: Cutting Instructions"
+- - -
 
-  - Schneide **2 Vorderseiten** mit _guten Seiten zusammen_
-  - Schneide **2 Rückseiten** mit _guten Seiten zusammen_
+**Main fabric**
 
-Diese Anleitung ist nur für den Titan-Grundschnitt mit Standardeinstellungen. Passe deinen Zuschnitt entsprechend an, falls du Änderungen am Grundschnitt vornimmst.
+- Schneide **2 Vorderseiten** mit _guten Seiten zusammen_
+- Schneide **2 Rückseiten** mit _guten Seiten zusammen_
+
+These cutting instructions are just for the default Titan block. Adjust your cutting accordingly if you have/are making changes to the block.
 
 <Note>
 

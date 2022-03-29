@@ -1,5 +1,5 @@
 ---
-title: Albert Construction
+title: "Albert apron: Sewing Instructions"
 ---
 
 ### Step 1: The Pocket
@@ -18,10 +18,10 @@ If you have trouble catching the top hem we suggest to either _Baste_ close to t
 </Tip>
 
 <Note>
-  
-There are multiple ways to sew a patch pocket so use the way you prefer if you do not like this one.  
+
+There are multiple ways to sew a patch pocket so use the way you prefer if you do not like this one.\
 A fun thing you can do is embroider/stitch the pocket with the name of the person the apron is for or even a cute design. Just remember that aprons typically get dirty so don't go to overtop with it.
-  
+
 </Note>
 
 ### Step 2: The Front
@@ -33,7 +33,7 @@ A fun thing you can do is embroider/stitch the pocket with the name of the perso
 
 <Note>
 
-It is recommended to hem the side seams before the top and bottom seams as they are narrower.  
+It is recommended to hem the side seams before the top and bottom seams as they are narrower.\
 The side seams are narrow hems simply being the seam allowance folded over twice.
 
 </Note>
@@ -47,7 +47,7 @@ The side seams are narrow hems simply being the seam allowance folded over twice
 - Repeat Step 3 for the remaining strap attaching it at the top right and then the side left.
 
 <Note>
-  
+
 You can make another set of straps to tie at the back if you wish to keep the apron close to body when moving.
 
 </Note>

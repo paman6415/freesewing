@@ -1,5 +1,5 @@
 ---
-title: Houdt wat je nodig hebt
+title: "Holmes deerstalker hat: What You Need"
 ---
 
 Om Holmes te maken heb je het volgende nodig:
@@ -13,10 +13,11 @@ Om Holmes te maken heb je het volgende nodig:
 
 <Note>
 
-Afhankelijk van de stijl zijn de knoppen en elementen optioneel.  
-- Als je Buttonhole Ear Flaps maakt, kun je de stropdassen weglaten.  
-- Als je Tie Ear Flaps maakt, kun je de knop weglaten.  
-- Ties kunnen ook gemaakt worden van stof als je liever hebt ([zie Holmes snijden](/docs/patronen/holmes/cutting/))  
-- Je kunt ook verschillende breedte gebruiken en linten typen voor de stropdassen als je dat wilt.
+Afhankelijk van de stijl zijn de knoppen en elementen optioneel.
+
+- Als je Buttonhole Ear Flaps maakt, kun je de stropdassen weglaten.
+- Als je Tie Ear Flaps maakt, kun je de knop weglaten.
+- Ties can also be made from fabric if you prefer ([see Holmes Cutting](/docs/patterns/holmes/cutting/))
+- You can also use different width and type ribbons for the ties if you prefer.
 
 </Note>

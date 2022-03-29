@@ -1,14 +1,17 @@
+- - -
+title: "Aaron A-Shirt: Cutting Instructions"
+- - -
 
- - Couper **1 dos** au pli
- - Couper **1 devant** au pli
- - Couper **3 bandes** pour l'ouverture du cou et l'emmanchure
+- Couper **1 dos** au pli
+- Couper **1 devant** au pli
+- Couper **3 bandes** pour l'ouverture du cou et l'emmanchure
 
 <Warning>
 
-#### Avertissement
+#### Caveats
 
- - Il n'y a pas de marges de coutures sur les emmanchures 
- - Il n'y a pas de marge de coutures sur l'ouverture du cou
- - Il y a une marge supplémentaire sur le bord de l'ourlet
+- There is no seam allowance on the armholes
+- There is no seam allowance on the neck opening
+- There is extra hem allowance at the hem
 
 </Warning>

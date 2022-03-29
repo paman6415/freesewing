@@ -16,7 +16,7 @@ and details a number of important things about the pattern, like:
 - The different **parts** in the pattern and how they depend on each other
 - The different **options** that are available to tweak the pattern
 
-The configuration is part of the pattern's code. It is created by the designer and 
+The configuration is part of the pattern's code. It is created by the designer and
 it is the same for everybody using the pattern.
 In other words, you cannot change the configuration. Instead, the configuration
 specifies what kind of settings the pattern accepts.

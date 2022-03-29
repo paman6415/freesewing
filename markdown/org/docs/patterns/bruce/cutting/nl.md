@@ -1,10 +1,14 @@
-Bruce bestaat uit een achterkant, en twee zijden, inzetstukken en voorkanten.
+- - -
+title: "Bruce boxer briefs: Cutting Instructions"
+- - -
 
- - **Buitenstof**
-   - Knip **1 rugpand** aan de stofvouw
-   - Knip **2 voorpanden**
-   - Knip **2 inzetstukken**
-   - Knip **2 zijkanten**
+Bruce consists of a back, and two sides, insets and fronts.
+
+- **Buitenstof**
+  - Knip **1 rugpand** aan de stofvouw
+  - Knip **2 voorpanden**
+  - Knip **2 inzetstukken**
+  - Knip **2 zijkanten**
 
 <Warning>
 
@@ -14,5 +18,3 @@ Bruce bestaat uit een achterkant, en twee zijden, inzetstukken en voorkanten.
 - **voor**: Knip deze **twee keer**
 
 </Warning>
-
-

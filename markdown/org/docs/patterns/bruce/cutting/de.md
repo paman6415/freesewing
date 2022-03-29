@@ -1,10 +1,14 @@
-Bruce besteht aus einer Rückseite, und jeweils zwei Seitenteilen, Einsätzen und Vorderteilen.
+- - -
+title: "Bruce boxer briefs: Cutting Instructions"
+- - -
 
- - **Oberstoff**
-   - Schneide **1 Rückseite** im Stoffbruch
-   - Schneide **2 Vorderteile**
-   - Schneide **2 Einsätze**
-   - Schneide **2 Seitenteile**
+Bruce consists of a back, and two sides, insets and fronts.
+
+- **Oberstoff**
+  - Schneide **1 Rückseite** im Stoffbruch
+  - Schneide **2 Vorderteile**
+  - Schneide **2 Einsätze**
+  - Schneide **2 Seitenteile**
 
 <Warning>
 
@@ -14,5 +18,3 @@ Bruce besteht aus einer Rückseite, und jeweils zwei Seitenteilen, Einsätzen un
 - **Vorderteil**: schneide dies **zweimal**
 
 </Warning>
-
-

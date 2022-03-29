@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import withGist from '../withGist'
-import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles'
+import { MuiThemeProvider, createTheme } from '@material-ui/core/styles'
 import Navbar from './navbar'
 import defaultGist from '@freesewing/utils/defaultGist'
 import storage from '@freesewing/utils/storage'
@@ -268,7 +268,7 @@ const Workbench = ({
           ...gist.settings,
           embed: true
         }).use(svgattrPlugin, {
-          class: 'freesewing draft'
+          class: 'freesewing pattern draft'
         })
         try {
           pattern.sample()
@@ -283,6 +283,7 @@ const Workbench = ({
         <Measurements
           measurements={measurements}
           required={config.measurements}
+          optional={config.optionalMeasurements}
           units={units}
           updateMeasurement={updateMeasurement}
           preloadMeasurements={preloadMeasurements}
@@ -317,7 +318,7 @@ const Workbench = ({
   const themes = { dark, light }
 
   return (
-    <MuiThemeProvider theme={createMuiTheme(themes[theme])}>
+    <MuiThemeProvider theme={createTheme(themes[theme])}>
       <style>
         {`:root { --freesewing-pattern-scale: ${gist.settings.scale || 1}; }`}
         {sass}

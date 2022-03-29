@@ -12,7 +12,7 @@ order: 20
 - To send you our newsletter
 
 ##### How long do we keep it?
- 
+
 - As long as you remain subscribed
 
 ##### Do we share it?
@@ -27,4 +27,4 @@ For people with an account on the website who enable the newsletter subscription
 
 </Note>
 
-[1]:/docs/various/privacy/account/
+[1]: /docs/various/privacy/account/

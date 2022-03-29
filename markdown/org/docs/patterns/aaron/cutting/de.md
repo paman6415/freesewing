@@ -1,14 +1,17 @@
+- - -
+title: "Aaron A-Shirt: Cutting Instructions"
+- - -
 
- - Schneide **1 Rückenteil** im Stoffbruch
- - Schneide **1 Vorderteil** im Stoffbruch
- - Schneide **3 Streifen** für Halsöffnung und Armlochbindung
+- Schneide **1 Rückenteil** im Stoffbruch
+- Schneide **1 Vorderteil** im Stoffbruch
+- Schneide **3 Streifen** für Halsöffnung und Armlochbindung
 
 <Warning>
 
-#### Achtung
+#### Caveats
 
- - Es gibt keine Nahtzugabe an den Armlöchern 
- - Es gibt keine Nahtzugabe an der Halsöffnung
- - Es gibt eine zusätzliche Saumzugabe am Saum
+- There is no seam allowance on the armholes
+- There is no seam allowance on the neck opening
+- There is extra hem allowance at the hem
 
 </Warning>

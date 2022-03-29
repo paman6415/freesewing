@@ -62,7 +62,7 @@ Node (or Node JS) is a Javascript runtime that allows to use the language outsid
 
 ## Parametric pattern design
 
-A design approach whereby sewing patterns are contructed based on parameters, 
+A design approach whereby sewing patterns are contructed based on parameters,
 and can adapt automatically when those parameters change.
 
 Those parameters almost always include body measurements, and user preferences.
@@ -79,7 +79,7 @@ An extension to FreeSewing core that provides an extra feature of functionality.
 
 A pull request is a proposal to commit changes to a repository.
 
-Pull requests can either be made because the person does not have the rights to make 
+Pull requests can either be made because the person does not have the rights to make
 changes to the repository directly. Or to discuss or validate the changes prior to
 accepting them.
 

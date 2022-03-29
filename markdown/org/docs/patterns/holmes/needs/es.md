@@ -1,5 +1,5 @@
 ---
-title: Holmes Lo que necesitas
+title: "Holmes deerstalker hat: What You Need"
 ---
 
 Para hacer Holmes, necesitarás lo siguiente:
@@ -13,10 +13,11 @@ Para hacer Holmes, necesitarás lo siguiente:
 
 <Note>
 
-Dependiendo del estilo, los lazos y botones son opcionales.  
-- Si está haciendo Botellas de Ojo de Botón puede omitir los vínculos.  
-- Si está haciendo Tie Ear Flaps puede omitir el botón.  
-- Los empates también se pueden hacer con tela si lo prefieres ([ver Corte de Holmes](/docs/patrones/holmes/corting/))  
-- También puedes usar diferentes anchura y escribir ribbons para los lazos si lo prefieres.
+Dependiendo del estilo, los lazos y botones son opcionales.
+
+- Si está haciendo Botellas de Ojo de Botón puede omitir los vínculos.
+- Si está haciendo Tie Ear Flaps puede omitir el botón.
+- Ties can also be made from fabric if you prefer ([see Holmes Cutting](/docs/patterns/holmes/cutting/))
+- You can also use different width and type ribbons for the ties if you prefer.
 
 </Note>

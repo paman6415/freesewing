@@ -3,21 +3,24 @@ import useApp from 'site/hooks/useApp.js'
 import Head from 'next/head'
 import Link from 'next/link'
 import About from 'site/components/about.js'
+import { useTranslation } from 'next-i18next'
+import { defaultVersion, formatVersionTitle, formatVersionUri } from 'site/components/version-picker.js'
 
-const links = (section, list) => list.map(design => (
+const links = (section, list, version) => list.map(design => (
   <li key={design} className="">
-    <Link href={`/${section}/${design}`}>
+    <Link href={formatVersionUri(version, design)}>
       <a className="text-secondary text-xl capitalize">{design}</a>
     </Link>
   </li>
 ))
 
-const PatternListPageTemplate = ({ sections=false }) => {
+const PatternListPageTemplate = ({ sections=false, version=false }) => {
   const app = useApp()
+  const { t } = useTranslation(['app'])
   if (sections === false) sections = Object.keys(app.patterns)
 
   return (
-    <Page app={app} title="FreeSewing Lab" noSearch>
+    <Page app={app} title={`FreeSewing Lab: ${formatVersionTitle(version)}`}>
       <Head>
         <meta property="og:title" content="lab.FreeSewing.dev" key="title" />
         <meta property="og:type" content="article" key='type' />
@@ -35,9 +38,9 @@ const PatternListPageTemplate = ({ sections=false }) => {
         {Object.keys(app.navigation).map(section => {
           if (sections.indexOf(section) !== -1) return (
             <div key={section}>
-              <h2>{app.navigation[section].__title}</h2>
+              <h2>{t(app.navigation[section].__title)}</h2>
               <ul className="flex flex-row flex-wrap gap-2">
-                {links(section, app.patterns[section])}
+                {links(section, app.patterns[section], version)}
               </ul>
             </div>
           )

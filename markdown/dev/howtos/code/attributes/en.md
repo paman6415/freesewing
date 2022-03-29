@@ -14,9 +14,9 @@ paths.example.attributes.add('class', 'lining dashed');
 ```
 
 Because it's so common to set attributes, Points, Paths and Snippets all have
-the `attr()` helper method. 
+the `attr()` helper method.
 
-Not only is less more, the method is also *chainable*, which allows you to do this:
+Not only is less more, the method is also _chainable_, which allows you to do this:
 
 ```js
 points.message = new Point(0,0)
@@ -33,10 +33,10 @@ The [adding-text](/concepts/adding-text) documentation explains this in detail.
 
 <Tip>
 
-When rendering, FreeSewing will output all your attributes. This gives you the 
+When rendering, FreeSewing will output all your attributes. This gives you the
 possiblity to use any valid attribute to control the appearance.
 
-This is also why we use the *data-* prefix for those attributes that have
+This is also why we use the _data-_ prefix for those attributes that have
 special meaning within FreeSewing, such as `data-text`. Adding a `text` attribute
 would result in invalid SVG as there is no such thing as a text attribute. But `data-text`
 is fine because the `data-` prefix indicates it is a [custom attribute](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/data-*).

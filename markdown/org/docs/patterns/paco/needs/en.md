@@ -1,3 +1,6 @@
+---
+title: "Paco pants: What You Need"
+---
 
 To make Paco, you will need the following:
 
@@ -7,5 +10,3 @@ To make Paco, you will need the following:
 - A little bit of interfacing for the pocket welts (only needed if you opted for back pockets)
 - A drawstring and two eyelets (optional)
 - Enough wide flat elastic for your waist and cuffs
-
-

@@ -18,15 +18,15 @@ macro("gore", {
 })
 ```
 
-| Property      | Default | Type       | Description                                  | 
+| Property      | Default | Type       | Description                                  |
 |--------------:|---------|------------|----------------------------------------------|
 | `from`        |         | [Point][2] | The point to start drafting the gore from |
 | `radius`      |         | number     | The radius of the sphere the gores should cover |
-| `gores`       |         | number     | The text to put on the *grainline* indicator |
+| `gores`       |         | number     | The text to put on the _grainline_ indicator |
 | `extraLength` |         | number     | The length of the straight section after a complete semisphere |
 | `render`      | `false` | boolean    | Whether or not to render the generated path |
 | `class`       |         | boolean    | Any classes to add to the generated path |
 
+[1]: https://en.wikipedia.org/wiki/Gore_\(segment\)
 
-[1]: https://en.wikipedia.org/wiki/Gore_(segment)
 [2]: /reference/api/point

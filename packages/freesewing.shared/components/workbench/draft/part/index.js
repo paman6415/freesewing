@@ -1,12 +1,38 @@
+import React from 'react'
 import Path from '../path'
 import Point from '../point'
 import Snippet from '../snippet'
 import { getProps } from '../utils'
 
-const RevealPart = props => {
+class ErrorBoundary extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { hasError: false };
+  }
+
+  static getDerivedStateFromError(error) {
+    console.log(error)
+    return { hasError: true }
+  }
+  componentDidCatch(error, errorInfo) {
+    console.log(error, errorInfo)
+  }
+  render() {
+    if (this.state.hasError) {
+      console.log('in error boundary', props)
+      return <text>Something went wrong.</text>
+    }
+
+    return this.props.children
+  }
+}
+
+const XrayPart = props => {
   // Don't bother if this is the only part on display
   if (props.gist.only && props.gist.only.length === 1) return null
-  const i = Object.keys(props.gist.xray?.reveal).indexOf(props.partName)%10
+  const i = props.gist._state?.xray?.reveal
+    ? Object.keys(props.gist._state.xray.reveal).indexOf(props.partName)%10
+    : 0
   const { topLeft, bottomRight } = props.part
 
   return (
@@ -83,5 +109,14 @@ const Part = props => {
     </g>
   )
 }
+/*
+    <ErrorBoundary
+      x={part.topLeft.x}
+      y={part.topLeft.y}
+      width={part.width}
+      height={part.height}
+    >
+    </ErrorBoundary>
+    */
 
 export default Part

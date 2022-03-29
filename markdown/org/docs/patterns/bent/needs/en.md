@@ -1,5 +1,5 @@
 ---
-title: Bent What you need
+title: "Bent body Block: What You Need"
 ---
 
 To make Bent, you will need the following:
@@ -19,4 +19,3 @@ They are sometimes also called slopers, although purists will argue that a block
 Blocks are typically not made as-is but rather serve as a basis for other patterns.
 
 </Note>
-

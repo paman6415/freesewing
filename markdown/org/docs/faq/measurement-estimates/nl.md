@@ -2,8 +2,7 @@
 title: Wat zijn die symbolen naast mijn metingen?
 ---
 
-Mogelijk heeft u dit soort pictogrammen naast uw afmetingen opgemerkt:
-<Gauge val={0} theme='light' />
+Je hebt misschien deze symbolen gezien naast je afmetingen: <Gauge val={0} theme='light' />
 
 De waarde die ze vertegenwoordigen toont hoe ver de meting afwijkt van de verhoudingen waarmee we onze ontwerpen testen met:
 
@@ -99,11 +98,10 @@ De waarde die ze vertegenwoordigen toont hoe ver de meting afwijkt van de verhou
   </tr>
 </table>
 
-
 Deze indicatoren dienen een tweeledig doel:
 
- - Help je fouten te vinden in je metingen (je weet het beste waar je buitenstaanders zijn)
- - Help je te anticiperen op waar onze software moeite zou kunnen hebben met goede resultaten
+- Help je fouten te vinden in je metingen (je weet het beste waar je buitenstaanders zijn)
+- Help je te anticiperen op waar onze software moeite zou kunnen hebben met goede resultaten
 
 <Note>
 

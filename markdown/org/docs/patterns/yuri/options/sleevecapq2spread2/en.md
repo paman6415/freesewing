@@ -1,3 +1,7 @@
+---
+title: "Sleevecap Q2 upward spread"
+---
+
 ![The upward spread in the second quadrant of the sleevecap](./sleevecapq2spread2.svg)
 
 This option controls the upward spread in the second quadrant of the sleevecap.
@@ -9,6 +13,6 @@ look into how the sleevecap is constructed and the influence of the different op
 
 </Tip>
 
-
 ## Effect of this option on the pattern
+
 ![This image shows the effect of this option by superimposing several variants that have a different value for this option](yuri_sleevecapq2spread2_sample.svg "Effect of this option on the pattern")
