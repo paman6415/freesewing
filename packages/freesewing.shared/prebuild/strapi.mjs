@@ -2,7 +2,6 @@ import path from 'path'
 import fs from 'fs'
 import axios from 'axios'
 import { strapiHost } from '../config/freesewing.mjs'
-import i18nConfig from '../config/i18n.config.mjs'
 import { unified } from 'unified'
 import remarkParser from 'remark-parse'
 import remarkCompiler from 'remark-stringify'
@@ -75,12 +74,13 @@ export const prebuildStrapi = async(site) => {
   for (const type of types) {
     authors[type] = {}
     // Loop over locales
-    for (const lang of (site === 'dev' ? ['en'] : i18nConfig.locales)) {
+    for (const lang of (site === 'dev' ? ['en'] : ['en', 'es', 'de', 'fr', 'nl'])) {
       posts[lang] = {}
       console.log(`  - Language: ${lang}`)
       posts[lang][type] = await getPosts(type, site, lang)
       // Extract list of authors
       for (const [slug, post] of Object.entries(posts[lang][type])) {
+        if (!post.author?.slug) console.log(post)
         authors[type][post.author.slug] = post.author
         posts[lang][type][slug].author = post.author.slug
       }
