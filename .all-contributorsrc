@@ -840,6 +840,61 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "eriese",
+      "name": "Enoch Riese",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5298929?v=4",
+      "profile": "http://enochriese.com",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "anna-puk",
+      "name": "anna-puk",
+      "avatar_url": "https://avatars.githubusercontent.com/u/100537439?v=4",
+      "profile": "https://github.com/anna-puk",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "arigrayzel",
+      "name": "Ari Grayzel-student",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33040950?v=4",
+      "profile": "https://github.com/arigrayzel",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "BenJamesBen",
+      "name": "BenJamesBen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/109869956?v=4",
+      "profile": "https://github.com/BenJamesBen",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "SimonbJohnson",
+      "name": "SimonbJohnson",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2110742?v=4",
+      "profile": "https://github.com/SimonbJohnson",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "joeschofield0",
+      "name": "Joe Schofield",
+      "avatar_url": "https://avatars.githubusercontent.com/u/47668691?v=4",
+      "profile": "https://github.com/joeschofield0",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "skipCi": true

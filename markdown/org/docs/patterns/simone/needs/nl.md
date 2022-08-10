@@ -1,10 +1,10 @@
----
+- - -
 title: "Simone shirt: What You Need"
----
+- - -
 
 <Note>
 
-Simone is our [Simon pattern](/designs/simon/) adapted for breasts.
+Raadpleeg [de Simon documentatie](/docs/patterns/simon/).
 
 Raadpleeg [de Simon documentatie](/docs/patterns/simon/).
 

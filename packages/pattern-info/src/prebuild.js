@@ -6,6 +6,7 @@ const bee = require('@freesewing/bee').config
 const bella = require('@freesewing/bella').config
 const benjamin = require('@freesewing/benjamin').config
 const bent = require('@freesewing/bent').config
+const bob = require('@freesewing/bob').config
 const brian = require('@freesewing/brian').config
 const breanna = require('@freesewing/breanna').config
 const diana = require('@freesewing/diana').config
@@ -17,12 +18,16 @@ const charlie = require('@freesewing/charlie').config
 const cornelius = require('@freesewing/cornelius').config
 const florent = require('@freesewing/florent').config
 const florence = require('@freesewing/florence').config
+const hi = require('@freesewing/hi').config
 const holmes = require('@freesewing/holmes').config
 const hortensia = require('@freesewing/hortensia').config
 const huey = require('@freesewing/huey').config
 const hugo = require('@freesewing/hugo').config
 const jaeger = require('@freesewing/jaeger').config
+const lucy = require('@freesewing/lucy').config
 const lunetius = require('@freesewing/lunetius').config
+const noble = require('@freesewing/noble').config
+const octoplushy = require('@freesewing/octoplushy').config
 const paco = require('@freesewing/paco').config
 const penelope = require('@freesewing/penelope').config
 const sandy = require('@freesewing/sandy').config
@@ -36,6 +41,7 @@ const theo = require('@freesewing/theo').config
 const tiberius = require('@freesewing/tiberius').config
 const titan = require('@freesewing/titan').config
 const trayvon = require('@freesewing/trayvon').config
+const unice = require('@freesewing/unice').config
 const ursula = require('@freesewing/ursula').config
 const wahid = require('@freesewing/wahid').config
 const walburga = require('@freesewing/walburga').config
@@ -49,6 +55,7 @@ const patterns = {
   bella,
   benjamin,
   bent,
+  bob,
   brian,
   breanna,
   diana,
@@ -60,12 +67,16 @@ const patterns = {
   cornelius,
   florent,
   florence,
+  hi,
   holmes,
   hortensia,
   huey,
   hugo,
   jaeger,
+  lucy,
   lunetius,
+  noble,
+  octoplushy,
   paco,
   penelope,
   sandy,
@@ -79,6 +90,7 @@ const patterns = {
   tiberius,
   titan,
   trayvon,
+  unice,
   ursula,
   wahid,
   walburga,
@@ -138,6 +150,7 @@ const optionalMeasurements = {}
 const versions = {}
 const info = {}
 for (let pattern of Object.keys(patterns)) {
+  if (typeof patterns[pattern] === 'undefined') console.log({pattern})
   options[pattern] = patternOptions(patterns[pattern])
   optionGroups[pattern] = patterns[pattern].optionGroups
   parts[pattern] = patternParts(patterns[pattern])

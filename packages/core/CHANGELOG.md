@@ -1,6 +1,26 @@
 # Change log for: @freesewing/core
 
 
+## 2.21.3 (2022-07-02)
+
+### Changed
+
+ - Make generatePartTransform a named export
+
+## 2.21.0 (2022-06-27)
+
+### Changed
+
+ - Migrated from Rollup to Esbuild for all builds
+ - The `pctBasedOn()` helper method for pattern config was moved to config-helpers We did not make this a breaking change since it's only used internally.
+
+## 2.20.8 (2022-05-21)
+
+### Fixed
+
+ - Fixed warning message when moving to a non-existing point
+ - Fixed incorrect decision in Path.boundary()
+
 ## 2.20.5 (2022-02-17)
 
 ### Fixed

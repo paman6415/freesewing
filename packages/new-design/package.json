@@ -1,0 +1,61 @@
+{
+  "name": "@freesewing/new-design",
+  "version": "2.21.3",
+  "description": "Initializer package for a new FreeSewing design: npx @freesewing/new-design",
+  "author": "Joost De Cock <joost@joost.at> (https://github.com/joostdecock)",
+  "homepage": "https://freesewing.org/",
+  "repository": "github:freesewing/freesewing",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/freesewing/freesewing/issues"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://freesewing.org/patrons/join"
+  },
+  "keywords": [
+    "freesewing",
+    "freesewing"
+  ],
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "SITE=new-design/shared node ../../sites/shared/prebuild/i18n-only.mjs && cp ../../scripts/banner.mjs ./lib && node build.js",
+    "clean": "rimraf dist",
+    "symlink": "mkdir -p ./node_modules/@freesewing && cd ./node_modules/@freesewing && ln -s -f ../../../* . && cd -",
+    "lab": "cd ../../sites/lab && yarn start",
+    "tips": "node ../../scripts/help.mjs",
+    "cibuild_step6": "SITE=new-design/shared node ../../sites/shared/prebuild/i18n-only.mjs && cp ../../scripts/banner.mjs ./lib && node build.js"
+  },
+  "peerDependencies": {},
+  "dependencies": {
+    "axios": "^0.27.2",
+    "chalk": "^5.0.1",
+    "execa": "^6.1.0",
+    "mustache": "^4.2.0",
+    "ora": "^6.1.0",
+    "prompts": "^2.4.2",
+    "recursive-readdir": "^2.2.2"
+  },
+  "devDependencies": {},
+  "files": [
+    "README.md",
+    "package.json",
+    "dist/*",
+    "lib/**/*",
+    "shared/**/*",
+    "templates/**/*",
+    "index.mjs",
+    "package.json"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "tag": "latest"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6"
+  },
+  "bin": {
+    "new-design": "dist/index.js"
+  }
+}

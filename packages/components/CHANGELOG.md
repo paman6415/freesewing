@@ -1,6 +1,18 @@
 # Change log for: @freesewing/components
 
 
+## 2.21.0 (2022-06-27)
+
+### Changed
+
+ - Migrated from Rollup to Esbuild for all builds
+
+## 2.20.8 (2022-05-21)
+
+### Fixed
+
+ - Fix restore of pattern defaults in draft configurator Closes [#1932](https://github.com/freesewing/freesewing/issues/1932)
+
 ## 2.20.7 (2022-02-20)
 
 ### Fixed

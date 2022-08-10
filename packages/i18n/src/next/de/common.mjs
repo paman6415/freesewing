@@ -3,9 +3,18 @@
  * All edits will be overwritten on the next (pre)build
  */
 const common = {
+  "account": "Account",
+  "blog": "Blog",
+  "commumity": "Community",
   "designs": "Entwurf",
+  "docs": "Documentation",
+  "patternInstructions": "Pattern instructions",
+  "patternOptions": "Pattern options",
+  "requiredMeasurements": "Required measurements",
+  "showcase": "Showcase",
   "sloganCome": "Komm für die Schnittmuster",
-  "sloganStay": "Bleib für die Community"
+  "sloganStay": "Bleib für die Community",
+  "support": "Support"
 }
 
 export default common

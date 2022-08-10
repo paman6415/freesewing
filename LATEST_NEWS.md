@@ -1,9 +1,13 @@
-##### Next contributor call on 16 April
+##### Next contributor call on 6 August
 
-[The next contributor call](https://github.com/freesewing/freesewing/discussions/2058) is on **16 April 2022**, Lexander and Karen will host it.
+[The next contributor call](https://github.com/freesewing/freesewing/discussions/2522) is on **6 August 2022**, Lexander and Karen will host it.
 
 The call is on [discord.freesewing.org](https://discord.freesewing.org/).
 Check the meetings voice/video channel.
+
+##### New designs: Hi, Noble, Unice, Bob, and Lucy
+
+Check the new designs, [Hi](/designs/hi), [Noble](/designs/noble), [Unice](/designs/unice), [Bob](/designs/bob), and [Lucy](/designs/lucy)
 
 ##### Check out where FreeSewing is heading
 

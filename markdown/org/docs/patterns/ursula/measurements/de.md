@@ -1,5 +1,8 @@
----
+- - -
 title: "Ursula undies: Required Measurements"
----
+- - -
 
-<PatternMeasurements pattern='ursula' />
+<Note>
+Ursula does not require any measurements
+</Note>
+

@@ -1,5 +1,5 @@
 const expect = require("chai").expect;
-const Point = require("./dist").Point;
+const Point = require("../dist/index.js").Point;
 
 const newAttr = () => new Point(0, 0).attributes;
 
@@ -61,3 +61,21 @@ it("Should render attributes as CSS", () => {
     .add("border", "1px solid red");
   expect(a.renderAsCss()).to.equal(" line-height:1.2; border:1px solid red;");
 });
+
+it("Should return attributes as props and filter a prefix", () => {
+  const a = newAttr()
+    .set("line-height", 1.2)
+    .add("border", "1px solid red")
+    .set("data-text", "This is a test")
+    .set("data-text-class", "center");
+  const props = a.asPropsIfPrefixIs('data-')
+  expect(props.text).to.equal("This is a test");
+  expect(props['text-class']).to.equal("center");
+});
+
+it("Should return attributes as props and handle special class case", () => {
+  const a = newAttr().set("class", "fabric");
+  const props = a.asPropsIfPrefixIs('')
+  expect(props.className).to.equal("fabric");
+});
+

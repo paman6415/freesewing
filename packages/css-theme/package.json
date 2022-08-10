@@ -1,6 +1,6 @@
 {
   "name": "@freesewing/css-theme",
-  "version": "2.20.8",
+  "version": "2.21.3",
   "description": "A CSS theme for FreeSewing web UIs",
   "author": "Joost De Cock <joost@joost.at> (https://github.com/joostdecock)",
   "homepage": "https://freesewing.org/",
@@ -22,36 +22,35 @@
   ],
   "main": "dist/theme.css",
   "scripts": {
-    "clean": "rimraf dist",
     "build": "npx node-sass --output-style compressed src/theme.scss dist/theme.css",
-    "cibuild_step1": "npx node-sass --output-style compressed src/theme.scss dist/theme.css",
-    "test": "echo \"css-theme: No tests configured. Perhaps you'd like to do this?\" && exit 0",
-    "pubtest": "npm publish --registry http://localhost:6662",
-    "pubforce": "npm publish",
+    "clean": "rimraf dist",
+    "mbuild": "NO_MINIFY=1 node build.js",
     "symlink": "mkdir -p ./node_modules/@freesewing && cd ./node_modules/@freesewing && ln -s -f ../../../* . && cd -",
-    "start": "rollup -c -w",
-    "watch": "npx node-sass --watch --output-style compressed src/theme.scss dist/theme.css"
+    "test": "echo \"css-theme: No tests configured. Perhaps you'd like to do this?\" && exit 0",
+    "vbuild": "VERBOSE=1 node build.js",
+    "lab": "cd ../../sites/lab && yarn start",
+    "tips": "node ../../scripts/help.mjs",
+    "watch": "npx node-sass --watch --output-style compressed src/theme.scss dist/theme.css",
+    "cibuild_step6": "npx node-sass --output-style compressed src/theme.scss dist/theme.css"
   },
+  "peerDependencies": {},
   "dependencies": {
+    "open-color": "^1.7.0",
     "@fontsource/permanent-marker": "latest",
     "@fontsource/roboto-mono": "latest",
-    "@fontsource/ubuntu": "latest",
-    "open-color": "^1.7.0"
+    "@fontsource/ubuntu": "latest"
   },
+  "devDependencies": {},
   "files": [
     "dist/*",
-    "README.md",
-    "package.json"
+    "README.md"
   ],
   "publishConfig": {
     "access": "public",
     "tag": "latest"
   },
   "engines": {
-    "node": ">=12.0.0",
+    "node": ">=14.0.0",
     "npm": ">=6"
-  },
-  "rollup": {
-    "exports": "named"
   }
 }

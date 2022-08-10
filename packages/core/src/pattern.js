@@ -59,6 +59,7 @@ export default function Pattern(config = { options: {} }) {
   this.height = 0 // Will be set after render
   this.is = '' // Will be set when drafting/sampling
   this.autoLayout = { parts: {} } // Will hold auto-generated layout
+  this.cutList = {} // Will hold the cutlist
 
   this.store = new Store(this.raise) // Store for sharing data across parts
   this.parts = {} // Parts container
@@ -191,6 +192,7 @@ Pattern.prototype.runHooks = function (hookName, data = false) {
 Pattern.prototype.draft = function () {
   if (this.is !== 'sample') {
     this.is = 'draft'
+    this.cutList = {}
     this.raise.debug(`Drafting pattern`)
   }
   // Handle snap for pct options
@@ -229,6 +231,7 @@ Pattern.prototype.draft = function () {
       }
       try {
         this.parts[partName] = this[method](this.parts[partName])
+        if (this.parts[partName].render ) this.cutList[partName] = this.parts[partName].cut
       } catch (err) {
         this.raise.error([`Unable to draft part \`${partName}\``, err])
       }
@@ -530,39 +533,7 @@ Pattern.prototype.pack = function () {
       // Some parts are added by late-stage plugins
       if (this.parts[partId]) {
         let transforms = this.settings.layout.parts[partId]
-        // Moving
-        if (typeof transforms.move === 'object') {
-          this.parts[partId].attributes.set(
-            'transform',
-            'translate(' + transforms.move.x + ', ' + transforms.move.y + ')'
-          )
-        }
-        // Mirrorring
-        let center = this.parts[partId].topLeft.shiftFractionTowards(
-          this.parts[partId].bottomRight,
-          0.5
-        )
-        let anchor = { x: 0, y: 0 }
-        if (transforms.flipX) {
-          let dx = anchor.x - center.x
-          let transform = `translate(${center.x * -1}, ${center.y * -1})`
-          transform += ' scale(-1, 1)'
-          transform += ` translate(${center.x * -1 + 2 * dx}, ${center.y})`
-          this.parts[partId].attributes.add('transform', transform)
-        }
-        if (transforms.flipY) {
-          let dy = anchor.y - center.y
-          let transform = `translate(${center.x * -1}, ${center.y * -1})`
-          transform += ' scale(1, -1)'
-          transform += ` translate(${center.x}, ${center.y * -1 + 2 * dy})`
-          this.parts[partId].attributes.add('transform', transform)
-        }
-        if (transforms.rotate) {
-          let transform = `rotate(${transforms.rotate}, ${center.x - anchor.x}, ${
-            center.y - anchor.y
-          })`
-          this.parts[partId].attributes.add('transform', transform)
-        }
+        this.parts[partId].generateTransform(transforms);
       }
     }
   }
@@ -616,9 +587,9 @@ Pattern.prototype.resolveDependencies = function (graph = this.config.dependenci
     let dependency = this.config.inject[i]
     if (typeof this.config.dependencies[i] === 'undefined') this.config.dependencies[i] = dependency
     else if (this.config.dependencies[i] !== dependency) {
-      if (typeof this.config.dependencies[i] === 'string')
+      if (typeof this.config.dependencies[i] === 'string') {
         this.config.dependencies[i] = [this.config.dependencies[i], dependency]
-      else if (Array.isArray(this.config.dependencies[i])) {
+      } else if (Array.isArray(this.config.dependencies[i])) {
         if (this.config.dependencies[i].indexOf(dependency) === -1)
           this.config.dependencies[i].push(dependency)
       } else {
@@ -701,6 +672,13 @@ Pattern.prototype.wants = function (partName) {
   return true
 }
 
+/**
+ * Returns the cutList property
+ */
+Pattern.prototype.getCutList = function () {
+  return this.cutList
+}
+
 /** Returns props required to render this pattern through
  *  an external renderer (eg. a React component)
  */
@@ -724,6 +702,7 @@ Pattern.prototype.getRenderProps = function () {
     warning: this.events.warning,
     error: this.events.error,
   }
+  props.cutList = this.cutList
   props.parts = {}
   for (let p in this.parts) {
     if (this.parts[p].render) {

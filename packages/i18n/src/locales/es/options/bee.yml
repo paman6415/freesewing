@@ -77,3 +77,6 @@ fullChestEaseReduction:
 highBustWidth:
   title: High bust width (Bella)
   description: Controls the high bust width in the underlying Bella block Bee is based on
+shoulderToShoulderEase:
+  title: Ancho de hombros (Bella)
+  description: Controla el ancho de hombros en el patrón de base Bella en el que se basa Bee

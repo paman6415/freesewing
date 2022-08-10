@@ -8,10 +8,6 @@ core:
   - patterns
   - sewing
   - sewing patterns
-create-freesewing-pattern:
-  - development
-  - initializer
-  - react
 components:
   - react
 css-theme:
@@ -19,6 +15,15 @@ css-theme:
   - scss
   - sass
   - theme
+design:
+  - design
+  - diy
+  - fashion
+  - made to measure
+  - parametric design
+  - pattern
+  - sewing
+  - sewing pattern
 examples:
   - documentation
   - example
@@ -46,15 +51,8 @@ other:
   - made to measure
   - parametric design
   - sewing
-pattern:
-  - design
-  - diy
-  - fashion
-  - made to measure
-  - parametric design
-  - pattern
-  - sewing
-  - sewing pattern
+package:
+  - freesewing
 patterns:
   - bundle
   - design
