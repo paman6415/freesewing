@@ -46,8 +46,28 @@ export const points = {
       }
     }
 
-    return part.hide()
+    // return part.hide()
     const m = measurements
+
+    points.start = new Point(-293.341356868715, -378.12529074457785)
+    points.startcp1 = new Point(-293.341356868715, -378.12529074457785)
+    points.p1cp2 = new Point(-303.4279949392408, -278.22201059398384)
+    points.p1 = new Point(-295.838428597875, -229.13480025752247)
+    points.p1cp1 = new Point(-283.5292377396114, -149.5223674050681)
+    points.p2cp2 = new Point(-303.4279949392408, -278.22201059398384)
+    points.p2 = new Point(-219, 0)
+
+    // points.p2 = new Point(-219, -4.1882920530839484e-14)
+    // .curve( new Point(-180.05890012033407,118.13472377918397), new Point(-244.2198612577759,-76.50891609747362), new Point(-104.00000000000011,355))
+    // .curve( new Point(-68.62398043643957,498.57647398724885), new Point(-29.00000000000024, 792.2253421119974), new Point(-29.00000000000024,792.2253421119974))
+
+    paths.a = new Path()
+      .move(points.start)
+      .curve(points.startcp1, points.p1cp2, points.p1)
+      .curve(points.p1cp1, points.p2cp2, points.p2)
+    return part
+    // .curve( new Point(-180.05890012033407,118.13472377918397), new Point(-244.2198612577759,-76.50891609747362), new Point(-104.00000000000011,355))
+    // .curve( new Point(-68.62398043643957,498.57647398724885), new Point(-29.00000000000024, 792.2253421119974), new Point(-29.00000000000024,792.2253421119974))
 
     console.log({ m: JSON.parse(JSON.stringify(m)) })
     // points.origin = new Point(0, 0)
