@@ -1,5 +1,5 @@
-export const ipoints = {
-  name: 'luminous.ipoints',
+export const zpoints = {
+  name: 'luminous.zpoints',
   measurements: [
     'waist',
     'waistBack',
@@ -44,8 +44,6 @@ export const ipoints = {
     macro,
     part,
   }) => {
-    return part.hide()
-
     const ControlPoints = (p1, p2, p3, t) => {
       let a = Math.abs(p2.angle(p1) - p2.angle(p3)) / 2
       console.log({ t: t, ap2_1: p2.angle(p1), ap2_3: p2.angle(p3), a: a })
@@ -96,7 +94,10 @@ export const ipoints = {
     }
 
     const CreateWaistPoint = (m, options, points, utils, front) => {
-      const kneeTemp = points.upperleg.shiftFractionTowards(points.knee, options.crotchToKnee)
+      const kneeTemp = points.insideCrossSeam.shiftFractionTowards(
+        points.insideKnee,
+        options.crotchToKnee
+      )
       const angle =
         90 +
         (front
@@ -106,8 +107,8 @@ export const ipoints = {
       var kneeToWaist = m.waistToKnee
       var ratio = 1
       var waist = kneeTemp.shift(angle, kneeToWaist * ratio)
-      const crossSeamCp = points.upperleg.shiftFractionTowards(
-        utils.beamIntersectsY(kneeTemp, waist, 0),
+      const crossSeamCp = points.insideCrossSeam.shiftFractionTowards(
+        utils.beamIntersectsY(kneeTemp, waist, points.insideCrossSeam.y),
         options.crotchPointsCP
       )
 
@@ -118,9 +119,11 @@ export const ipoints = {
       do {
         waist = kneeTemp.shift(angle, kneeToWaist * ratio * (ratio < 1 ? 1.05 : 0.95))
         // waistCp = waist.shiftFractionTowards(kneeTemp, options.waistToKneeCP)
-        waistCp = waist.shiftFractionTowards(points.knee, options.waistToKneeCP)
+        waistCp = waist.shiftFractionTowards(points.insideKnee, options.waistToKneeCP)
 
-        const crossSeamPath = new Path().move(points.upperleg).curve(crossSeamCp, waistCp, waist)
+        const crossSeamPath = new Path()
+          .move(points.insideCrossSeam)
+          .curve(crossSeamCp, waistCp, waist)
 
         diff = crossSeam - crossSeamPath.length()
         ratio = crossSeam / crossSeamPath.length()
@@ -132,13 +135,117 @@ export const ipoints = {
       }
 
       if (front) {
-        points.waistFront = waist.clone()
-        points.waistFrontCp = waistCp.clone()
-        points.crossSeamFrontCp = crossSeamCp.clone()
+        points.frontWaist = waist.clone()
+        points.frontWaistCp = waistCp.clone()
+        points.frontCrossSeamCp = crossSeamCp.clone()
       } else {
-        points.waistBack = waist.clone()
-        points.waistBackCp = waistCp.clone()
-        points.crossSeamBackCp = crossSeamCp.clone()
+        points.backWaist = waist.clone()
+        points.backWaistCp = waistCp.clone()
+        points.backCrossSeamCp = crossSeamCp.clone()
+      }
+    }
+
+    const CreateSidePoints = (prefix, postfix, names, ratio, ratioFixed, ease) => {
+      console.log('-----' + prefix + postfix + '----')
+      var measurement, width
+      for (var i = 0; i < names.length; i++) {
+        if (names[i] == 'UpperLeg') {
+          measurement = m['upperLeg']
+          const intersect = utils.beamIntersectsCurve(
+            points[prefix + names[i]],
+            points[prefix + names[i]].shift(prefix == 'front' ? 180 : 0, ratioFixed * 3),
+            points.insideCrossSeam,
+            points[prefix + 'CrossSeamCp'],
+            points[prefix + 'WaistCp'],
+            points[prefix + 'Waist']
+          )
+          console.log({ intersect: intersect })
+          width =
+            ((measurement * ratio) / 2) * ease + intersect.dist(points[prefix + names[i]]) * 0.5
+        } else {
+          measurement = m[names[i].toLowerCase()]
+
+          width =
+            ((measurement * ratio) / (names[i] == 'Waist' || names[i] == 'Seat' ? 4 : 2)) * ease
+        }
+
+        const distance =
+          m['waistTo' + names[i - 1]] -
+          (m['waistTo' + names[i]] === undefined ? 0 : m['waistTo' + names[i]])
+        console.log({ ratio: ratio, ratioFixed: ratioFixed, width: width, distance: distance })
+        if (i == 0) {
+          points[prefix + postfix + names[i]] = points[prefix + names[i]].shift(
+            prefix == 'front' ? 180 : 0,
+            width < ratioFixed ? width : ratioFixed
+          ) //.addCircle(3).addCircle(6).addCircle(9)
+          points[prefix + names[i]] //.addCircle(width < ratioFixed ? width : ratioFixed)
+        } else {
+          console.log({
+            n1: prefix + names[i],
+            n2: prefix + postfix + names[i - 1],
+            m1: 'waistTo' + names[i - 1],
+            m2: 'waistTo' + names[i],
+            d: distance,
+          })
+          console.log({
+            p1: points[prefix + names[i]],
+            p2: points[prefix + postfix + names[i - 1]],
+            m1: m['waistTo' + names[i - 1]],
+            m2: m['waistTo' + names[i]],
+            w: width < ratioFixed ? width : ratioFixed,
+            d: points[prefix + names[i]].dist(points[prefix + names[i - 1]]),
+          })
+
+          var ci = utils.circlesIntersect(
+            points[prefix + names[i]],
+            width < ratioFixed ? width : ratioFixed,
+            points[prefix + postfix + names[i - 1]],
+            distance
+          )
+          console.log({ ci: ci })
+
+          // points[ prefix +postfix +names[i-1] ].addCircle(distance)
+          // points[prefix +names[i]].addCircle(width < ratioFixed ? width : ratioFixed)
+
+          if (false !== ci) {
+            points[prefix + postfix + names[i]] = ci[prefix == 'front' ? 0 : 1] //.addCircle(2).addCircle(4).addCircle(6)
+          } else {
+            break
+          }
+        }
+      }
+    }
+
+    const SmoothPoints = (prefix, postfix, names) => {
+      var adjust
+      for (var i = 0; i < names.length - 2; i++) {
+        adjust = false
+        console.log({
+          smooth1: points[prefix + postfix + names[i]],
+          smooth2: points[prefix + postfix + names[i + 1]],
+          smooth3: points[prefix + postfix + names[i + 2]],
+        })
+        console.log({
+          a1: points[prefix + postfix + names[i]].angle(points[prefix + postfix + names[i + 1]]),
+          a2: points[prefix + postfix + names[i]].angle(points[prefix + postfix + names[i + 2]]),
+        })
+        if (prefix == 'front') {
+          adjust =
+            points[prefix + postfix + names[i]].angle(points[prefix + postfix + names[i + 1]]) >
+            points[prefix + postfix + names[i]].angle(points[prefix + postfix + names[i + 2]])
+        } else {
+          adjust =
+            points[prefix + postfix + names[i]].angle(points[prefix + postfix + names[i + 1]]) <
+            points[prefix + postfix + names[i]].angle(points[prefix + postfix + names[i + 2]])
+        }
+        if (adjust) {
+          points[prefix + postfix + names[i + 1]] = points[
+            prefix + postfix + names[i]
+          ].shiftTowards(
+            points[prefix + postfix + names[i + 2]],
+            points[prefix + postfix + names[i]].dist(points[prefix + postfix + names[i + 1]])
+          )
+        }
       }
     }
 
@@ -150,31 +257,36 @@ export const ipoints = {
     const ease = options.ease + 1
 
     m['waistToAnkle'] = m.waistToFloor - m.heel / Math.PI
+    // m['waistToWaist'] = 0;
+
+    const sideFixed = (((m.seat - m.seatBack) * ease) / 2) * sideRatio
 
     console.log({ m: JSON.parse(JSON.stringify(m)) })
     console.log({ wfr: waistFrontBackRatio })
-    // points.origin = new Point(0, 0)
-    // points.knee = points.origin.shift(270, m.inseam - (m.waistToFloor - m.waistToKnee))
-    // points.ankle = points.origin.shift(270, m.inseam - (m.ankle / Math.PI))
-    // points.waist = points.origin.shift(90, m.waistToFloor - m.inseam)
 
-    points.upperlegFront = points.upperlegBack = points.upperleg = new Point(0, 0)
-    points.kneeFront =
-      points.kneeBack =
-      points.knee =
-        points.upperleg.shift(270, m.waistToKnee - crotchOffset)
-    points.ankleFront =
-      points.ankleBack =
-      points.ankle =
-        points.upperleg.shift(270, m.inseam - m.heel / Math.PI)
-    points.floorFront = points.floorBack = points.floor = points.upperleg.shift(270, m.inseam)
-
-    // points.waistTemp = points.upperleg.shiftFractionTowards(points.knee,options.crotchToKnee).shift(90 + options.crossSeamAngle*(m.waistBack/m.waist), options.kneeToWaistLength)
-    // paths.waistTemp = new Path()
-    // .move(points.upperleg.shiftFractionTowards(points.knee,options.crotchToKnee))
-    // .line(points.waistTemp)
-    // points.upperlegFrontCp = utils.beamIntersectsY(points.kneeTemp,points.waistTempFront,0)
-    // points.upperlegBackCp = utils.beamIntersectsY(points.kneeTemp,points.waistTempBack,0)
+    points.insideWaist = new Point(0, 0)
+    points.insideHips = points.insideWaist.shift(270, m.waistToHips)
+    points.insideSeat = points.insideWaist.shift(270, m.waistToSeat)
+    points.frontCrossSeam =
+      points.backCrossSeam =
+      points.insideCrossSeam =
+        points.insideWaist.shift(270, crotchOffset)
+    points.frontUpperLeg =
+      points.backUpperLeg =
+      points.insideUpperLeg =
+        points.insideWaist.shift(270, m.waistToUpperLeg)
+    points.frontKnee =
+      points.backKnee =
+      points.insideKnee =
+        points.insideWaist.shift(270, m.waistToKnee)
+    points.frontAnkle =
+      points.backAnkle =
+      points.insideAnkle =
+        points.insideWaist.shift(270, m.waistToFloor - m.heel / Math.PI)
+    points.frontFloor =
+      points.backFloor =
+      points.insideFloor =
+        points.insideWaist.shift(270, m.waistToFloor)
 
     CreateWaistPoint(m, options, points, utils, true)
     CreateWaistPoint(m, options, points, utils, false)
@@ -185,19 +297,106 @@ export const ipoints = {
 
     console.log({ pionts: JSON.parse(JSON.stringify(points)) })
 
-    paths.middle = new Path().move(points.upperleg).line(points.floor)
+    paths.middle = new Path().move(points.insideUpperLeg).line(points.insideFloor)
 
     paths.crossSeamFront = new Path()
-      .move(points.upperleg)
-      .curve(points.crossSeamFrontCp, points.waistFrontCp, points.waistFront)
+      .move(points.insideCrossSeam)
+      .curve(points.frontCrossSeamCp, points.frontWaistCp, points.frontWaist)
     paths.crossSeamBack = new Path()
-      .move(points.upperleg)
-      .curve(points.crossSeamBackCp, points.waistBackCp, points.waistBack)
+      .move(points.insideCrossSeam)
+      .curve(points.backCrossSeamCp, points.backWaistCp, points.backWaist)
 
     let csFront = paths.crossSeamFront.length()
     let csBack = paths.crossSeamBack.length()
 
-    console.log({ csf: m.crossSeamFront, csFront: csFront })
+    console.log({ csf: m.crossSeamFront, csFront: csFront, csBack: csBack })
+
+    points.frontSeat = paths.crossSeamFront
+      .reverse()
+      .shiftAlong(m.waistToSeat * (m.crossSeamFront / m.waistToUpperLeg) * 0.8)
+      .addCircle(6)
+    points.frontHips = paths.crossSeamFront
+      .reverse()
+      .shiftAlong(m.waistToHips * (m.crossSeamFront / m.waistToUpperLeg))
+      .addCircle(10)
+    points.backSeat = paths.crossSeamBack
+      .reverse()
+      .shiftAlong(m.waistToSeat * (m.waistToSeat / m.waistToUpperLeg))
+      .addCircle(6)
+    points.backHips = paths.crossSeamBack
+      .reverse()
+      .shiftAlong(m.waistToHips * (m.waistToSeat / m.waistToUpperLeg))
+      .addCircle(10)
+
+    CreateSidePoints(
+      'front',
+      'Side',
+      ['Ankle', 'Knee', 'UpperLeg', 'Seat', 'Waist'],
+      1,
+      sideFixed * 3,
+      ease
+    )
+    // CreateSidePoints( 'front', 'Side', ['Ankle', 'Knee', 'UpperLeg', 'Waist'], 1, sideFixed *3, ease )
+    CreateSidePoints(
+      'back',
+      'Side',
+      ['Ankle', 'Knee', 'UpperLeg', 'Seat', 'Waist'],
+      1,
+      sideFixed * 3,
+      ease
+    )
+    // // CreateSidePoints( 'front', 'Split', ['Ankle', 'Knee', 'UpperLeg', 'Waist'], sideRatio, sideFixed, ease )
+    CreateSidePoints(
+      'front',
+      'Split',
+      ['Ankle', 'Knee', 'UpperLeg', 'Seat', 'Waist'],
+      1 - sideRatio,
+      sideFixed,
+      ease
+    )
+    CreateSidePoints(
+      'back',
+      'Split',
+      ['Ankle', 'Knee', 'UpperLeg', 'Waist'],
+      sideRatio,
+      sideFixed,
+      ease
+    )
+
+    SmoothPoints('front', 'Side', ['Ankle', 'Knee', 'UpperLeg', 'Seat', 'Waist'])
+    SmoothPoints('back', 'Side', ['Ankle', 'Knee', 'UpperLeg', 'Seat', 'Waist'])
+    ;['front', 'back'].forEach((prefix) => {
+      ;['Side'].forEach((type) => {
+        paths[prefix + type] = new Path()
+          .move(points[prefix + type + 'Ankle'])
+          .line(points[prefix + type + 'Knee'])
+          .line(points[prefix + type + 'UpperLeg'])
+          .line(points[prefix + type + 'Seat'])
+          .line(points[prefix + type + 'Waist'])
+      })
+    })
+    ;['front', 'back'].forEach((prefix) => {
+      ;['Split'].forEach((type) => {
+        paths[prefix + type] = new Path()
+          .move(points[prefix + type + 'Ankle'])
+          .line(points[prefix + type + 'Knee'])
+          .line(points[prefix + type + 'UpperLeg'])
+          .line(points[prefix + type + 'Waist'])
+      })
+    })
+
+    // console.log({d1: points.frontKnee.dist(points.frontUpperLeg),d2: points.frontSplitKnee.dist(points.frontSplitUpperLeg)})
+
+    console.log({ pahts: JSON.parse(JSON.stringify(paths)) })
+    console.log({ pins: JSON.parse(JSON.stringify(points)) })
+
+    // paths.frontSide = new Path()
+    //   .move(points.frontSideAnkle)
+    //   .line(points.frontSideKnee)
+    //   .line(points.frontSideUpperLeg)
+    //   .line(points.frontSideSeat)
+    //   .line(points.frontSideWaist)
+    return part
 
     const waistAngle = utils.rad2deg(
       Math.asin((points.waistBack.y - points.waistFront.y) / (m.waist / 2))
@@ -242,9 +441,9 @@ export const ipoints = {
     points.ankleFrontSeam = points.ankle.shift(180, (m.ankle * ease) / 2)
     points.ankleBackSeam = points.ankle.shift(0, (m.ankle * ease) / 2)
 
-    const sideFixed = points.waistFrontSeam.dist(
-      points.waistFront.shiftFractionTowards(points.waistFrontSeam, sideRatio)
-    )
+    // const sideFixed = points.waistFrontSeam.dist(
+    //   points.waistFront.shiftFractionTowards(points.waistFrontSeam, sideRatio)
+    // )
 
     paths.front = new Path()
       .move(points.ankleFrontSeam)
